@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yesos | Shalom Creativo</title>
+  <meta name="description"
+    content="Alcancías y macetas de yeso pintadas a mano y personalizadas. Hechas con yeso y mucho corazón. Mira el catálogo y haz tu pedido.">
+  <link rel="icon" href="images/small_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --fondo: #f6f7f5;
+      --blanco: #ffffff;
+      --tinta: #15261f;
+      --suave: #596861;
+      --linea: #e0e5e1;
+      --acento: #1f4d3f;
+      --acento-oscuro: #153a2f;
+      /* colores de pintura, se usan solo en las fotos de ejemplo */
+      --azul: #a9cde8;
+      --menta: #b7dcc5;
+      --mantequilla: #f3dc8f;
+      --rosa: #f1bfca;
+      --radio: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Nunito", system-ui, sans-serif;
+      background: var(--fondo);
+      color: var(--tinta);
+      line-height: 1.65;
+      font-size: 1.05rem;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: "Fredoka", sans-serif;
+      font-weight: 600;
+      line-height: 1.15;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--acento);
+      outline-offset: 3px;
+      border-radius: 6px;
+    }
+
+    .contenedor {
+      width: min(1080px, 92%);
+      margin-inline: auto;
+    }
+
+    section {
+      padding: 5.5rem 0;
+    }
+
+    .titulo-seccion {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      margin-bottom: .75rem;
+    }
+
+    .intro {
+      color: var(--suave);
+      max-width: 52ch;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Botones */
+    .boton {
+      display: inline-block;
+      padding: .85rem 1.6rem;
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+      background: var(--acento);
+      color: #fff;
+      transition: background .2s;
+    }
+
+    .boton:hover {
+      background: var(--acento-oscuro);
+    }
+
+    .boton.claro {
+      background: transparent;
+      color: var(--tinta);
+      border: 2px solid var(--tinta);
+    }
+
+    .boton.claro:hover {
+      background: var(--tinta);
+      color: #fff;
+    }
+
+    /* Encabezado */
+    header {
+      padding: 1.25rem 0;
+    }
+
+    header .contenedor {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      font-family: "Fredoka", sans-serif;
+      font-weight: 600;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    .logo img {
+      height: 56px;
+      width: auto;
+      mix-blend-mode: multiply;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--suave);
+    }
+
+    nav a:hover {
+      color: var(--tinta);
+    }
+
+    nav .boton {
+      color: #fff;
+      padding: .55rem 1.2rem;
+    }
+
+    nav .boton:hover {
+      color: #fff;
+    }
+
+    /* Portada */
+    .portada {
+      padding: 3.5rem 0 4rem;
+    }
+
+    .portada .contenedor {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .portada h1 {
+      font-size: clamp(2.2rem, 5.5vw, 3.5rem);
+      margin-bottom: 1.25rem;
+    }
+
+    .portada p {
+      color: var(--suave);
+      max-width: 46ch;
+      margin-bottom: 2rem;
+    }
+
+    .acciones {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .85rem;
+    }
+
+    /* Beneficios (debajo de la portada) */
+    .beneficios {
+      padding: 0 0 5rem;
+    }
+
+    .beneficios ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      border-top: 1px solid var(--linea);
+      padding-top: 2rem;
+    }
+
+    .beneficios li {
+      font-weight: 700;
+    }
+
+    /* Fotos: si la imagen no existe, se ve un bloque de color */
+    .foto {
+      position: relative;
+      border-radius: var(--radio);
+      overflow: hidden;
+      background: var(--azul);
+      aspect-ratio: 4 / 5;
+    }
+
+    .foto img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .foto .etiqueta {
+      position: absolute;
+      left: 1rem;
+      bottom: 1rem;
+      background: var(--blanco);
+      padding: .3rem .9rem;
+      border-radius: 999px;
+      font-size: .9rem;
+      font-weight: 700;
+    }
+
+    .menta {
+      background: var(--menta);
+    }
+
+    .mantequilla {
+      background: var(--mantequilla);
+    }
+
+    .rosa {
+      background: var(--rosa);
+    }
+
+    .azul {
+      background: var(--azul);
+    }
+
+    /* Qué hacemos */
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+    }
+
+    .producto h3 {
+      font-size: 1.6rem;
+      margin: 1.25rem 0 .4rem;
+    }
+
+    .producto p {
+      color: var(--suave);
+    }
+
+    .producto .foto {
+      aspect-ratio: 1 / 1;
+    }
+
+    .mas {
+      margin-top: 2.5rem;
+      font-weight: 700;
+    }
+
+    /* Personalizado */
+    .personalizado {
+      background: var(--blanco);
+    }
+
+    .personalizado .contenedor {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .personalizado ul {
+      list-style: none;
+      margin-top: 1.5rem;
+      display: grid;
+      gap: .8rem;
+    }
+
+    .personalizado li {
+      padding-left: 1.6rem;
+      position: relative;
+    }
+
+    .personalizado li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: .6em;
+      width: .7rem;
+      height: .7rem;
+      border-radius: 50%;
+      background: var(--acento);
+    }
+
+    .personalizado .cierre {
+      margin-top: 1.5rem;
+      font-weight: 700;
+    }
+
+    /* Galería */
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .galeria .foto {
+      aspect-ratio: 1 / 1;
+    }
+
+    /* Cómo pedir: aquí sí hay una secuencia real */
+    .pasos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      list-style: none;
+      counter-reset: paso;
+    }
+
+    .pasos li {
+      counter-increment: paso;
+    }
+
+    .pasos li::before {
+      content: counter(paso);
+      display: grid;
+      place-items: center;
+      width: 2.6rem;
+      height: 2.6rem;
+      border-radius: 50%;
+      background: var(--tinta);
+      color: #fff;
+      font-family: "Fredoka", sans-serif;
+      margin-bottom: 1rem;
+    }
+
+    .pasos h3 {
+      font-size: 1.25rem;
+      margin-bottom: .35rem;
+    }
+
+    .pasos p {
+      color: var(--suave);
+    }
+
+    /* Catálogo */
+    .catalogo {
+      background: var(--tinta);
+      color: #fff;
+      text-align: center;
+    }
+
+    .catalogo p {
+      color: #c3cfc9;
+      margin: 0 auto 2rem;
+      max-width: 46ch;
+    }
+
+    .catalogo .boton {
+      background: #fff;
+      color: var(--tinta);
+    }
+
+    .catalogo .boton:hover {
+      background: var(--menta);
+    }
+
+    /* Contacto */
+    .contacto .contenedor {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+
+    .datos {
+      list-style: none;
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .datos span {
+      display: block;
+      font-size: .9rem;
+      color: var(--suave);
+    }
+
+    .datos a,
+    .datos strong {
+      font-size: 1.15rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .datos a:hover {
+      color: var(--acento);
+    }
+
+    footer {
+      padding: 2rem 0;
+      border-top: 1px solid var(--linea);
+      color: var(--suave);
+      font-size: .95rem;
+    }
+
+    footer .contenedor {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: .5rem;
+    }
+
+    /* Entrada de la portada (único movimiento de la página) */
+    @media (prefers-reduced-motion: no-preference) {
+      .portada .contenedor>* {
+        animation: entrar .7s ease both;
+      }
+
+      .portada .contenedor>*:nth-child(2) {
+        animation-delay: .12s;
+      }
+
+      @keyframes entrar {
+        from {
+          opacity: 0;
+          transform: translateY(14px);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    }
+
+    /* Móvil */
+    @media (max-width: 780px) {
+      section {
+        padding: 4rem 0;
+      }
+
+      nav a:not(.boton) {
+        display: none;
+      }
+
+      .portada .contenedor,
+      .productos,
+      .personalizado .contenedor,
+      .contacto .contenedor,
+      .beneficios ul,
+      .pasos {
+        grid-template-columns: 1fr;
+      }
+
+      .beneficios ul {
+        gap: 1rem;
+      }
+
+      .galeria {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .portada .foto {
+        aspect-ratio: 4 / 3;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="contenedor">
+      <a class="logo" href="#inicio">
+        <img src="images/small_logo.png" alt="Logo de Shalom Creativo">
+        <span>Shalom Creativo</span>
+      </a>
+      <nav>
+        <a href="#productos">Productos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#pedidos">Cómo pedir</a>
+        <a href="#contacto" class="boton">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <!-- PORTADA -->
+    <section class="portada">
+      <div class="contenedor">
+        <div>
+          <h1>Hechas con yeso y mucho corazón</h1>
+          <p>Alcancías y macetas pintadas a mano, con diseños únicos y personalizados. Para todo lo que tú imagines.</p>
+          <div class="acciones">
+            <a class="boton" href="#catalogo">Ver catálogo</a>
+            <a class="boton claro" href="#contacto">Pedir una pieza</a>
+          </div>
+        </div>
+        <div class="foto azul">
+          <img src="images/portada.png" alt="Alcancía y maceta de yeso pintadas a mano" onerror="this.remove()">
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="beneficios">
+      <div class="contenedor">
+        <ul>
+          <li>Diseños únicos y personalizados</li>
+          <li>Pintadas a mano con detalle y amor</li>
+          <li>Material resistente de calidad</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" style="padding-top: 0;">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Lo que hacemos</h2>
+        <p class="intro">Piezas de yeso pintadas a mano, para tu casa o para tus eventos.</p>
+
+        <div class="productos">
+          <article class="producto">
+            <div class="foto rosa">
+              <img src="images/alcancia.jpg" alt="Alcancías de yeso en forma de patito" onerror="this.remove()">
+            </div>
+            <h3>Alcancías</h3>
+            <p>Ideales para ahorrar, decorar y regalar.</p>
+          </article>
+
+          <article class="producto">
+            <div class="foto menta">
+              <img src="images/maceta.jpg" alt="Macetas de yeso en forma de rana, tronco y panda"
+                onerror="this.remove()">
+            </div>
+            <h3>Macetas</h3>
+            <p>Pintadas a mano con detalle y amor.</p>
+          </article>
+
+          <article class="producto">
+            <div class="foto mantequilla">
+              <img src="images/eventos.png" alt="Centros de mesa de yeso con suculentas para un evento"
+                onerror="this.remove()">
+            </div>
+            <h3>Recuerdos y centros de mesa</h3>
+            <p>Detalles para tus invitados, con el tema que elijas.</p>
+          </article>
+        </div>
+
+        <p class="mas">¿No ves lo que buscas? También hacemos otras piezas y figuras decorativas. Cuéntanos qué
+          imaginas.</p>
+      </div>
+    </section>
+
+    <!-- PERSONALIZADO -->
+    <section class="personalizado">
+      <div class="contenedor">
+        <div>
+          <h2 class="titulo-seccion">Hechas a tu medida</h2>
+          <p class="intro" style="margin-bottom:0">Personalizamos piezas de acuerdo a los eventos que tengas.</p>
+          <ul>
+            <li>Cumpleaños</li>
+            <li>Graduaciones</li>
+            <li>Fiestas</li>
+          </ul>
+          <p class="cierre">Para todo lo que tú imagines.</p>
+        </div>
+        <div class="foto mantequilla">
+          <img src="images/personalizado.jpg" alt="Pieza de yeso personalizada" onerror="this.remove()">
+          <span class="etiqueta">Personalizado</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Nuestro trabajo</h2>
+        <p class="intro">Algunas de las piezas que hemos pintado.</p>
+
+        <!-- CAMBIAR: sube tus fotos a "images" como galeria-1.jpg ... galeria-6.jpg -->
+        <div class="galeria">
+          <div class="foto azul"><img src="images/galeria-1.jpg" alt="Trabajo de yeso 1" onerror="this.remove()"></div>
+          <div class="foto rosa"><img src="images/galeria-2.jpg" alt="Trabajo de yeso 2" onerror="this.remove()"></div>
+          <div class="foto menta"><img src="images/galeria-3.jpg" alt="Trabajo de yeso 3" onerror="this.remove()"></div>
+          <div class="foto mantequilla"><img src="images/galeria-4.jpg" alt="Trabajo de yeso 4" onerror="this.remove()">
+          </div>
+          <div class="foto azul"><img src="images/galeria-5.jpg" alt="Trabajo de yeso 5" onerror="this.remove()"></div>
+          <div class="foto rosa"><img src="images/galeria-6.jpg" alt="Trabajo de yeso 6" onerror="this.remove()"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO PEDIR -->
+    <section id="pedidos" style="background: var(--blanco);">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Cómo hacer tu pedido</h2>
+        <p class="intro">Todo se coordina por mensaje, sin complicaciones.</p>
+
+        <ol class="pasos">
+          <li>
+            <h3>Elige</h3>
+            <p>Mira el catálogo y escoge el modelo que te guste.</p>
+          </li>
+          <li>
+            <h3>Cuéntanos</h3>
+            <p>Escríbenos con los colores, el nombre o el diseño que quieres.</p>
+          </li>
+          <li>
+            <h3>Recíbelo</h3>
+            <p>Confirmamos precio y fecha de entrega, y preparamos tu pieza.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CATÁLOGO (enlace externo a Drive) -->
+    <section class="catalogo" id="catalogo">
+      <div class="contenedor">
+        <h2 class="titulo-seccion">Catálogo completo</h2>
+        <p>Todos los modelos, tamaños y precios están en nuestra carpeta de Drive.</p>
+        <!-- CAMBIAR: pega aquí el enlace de tu carpeta de Google Drive -->
+        <a class="boton" href="https://drive.google.com/" target="_blank" rel="noopener">Abrir catálogo en Drive</a>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+      <div class="contenedor">
+        <div>
+          <h2 class="titulo-seccion">Hablemos de tu pieza</h2>
+          <p class="intro">Escríbenos para pedir, cotizar o resolver dudas. Respondemos lo antes posible.</p>
+          <a class="boton"
+            href="https://wa.me/529512648738?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20piezas%20de%20yeso"
+            target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        </div>
+
+        <ul class="datos">
+          <li>
+            <span>WhatsApp</span>
+            <a href="https://wa.me/529512648738" target="_blank" rel="noopener">+52 951 264 8738</a>
+          </li>
+          <li>
+            <span>Teléfono</span>
+            <a href="tel:+52 951 264 8738">+52 951 264 8738</a>
+          </li>
+          <li>
+            <span>Facebook</span>
+            <a href="https://www.facebook.com/profile.php?id=100092651344610" target="_blank" rel="noopener">Yeso
+              Creativo Shalom</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <span>© 2026 Shalom Creativo. Hecho con yeso y mucho corazón.</span>
+      <span>Alcancías y macetas pintadas y personalizadas</span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
