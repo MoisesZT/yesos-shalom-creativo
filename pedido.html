@@ -231,6 +231,37 @@
             gap: 1rem
         }
 
+        .fil {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+            margin-top: 1rem
+        }
+
+        .fil:empty {
+            display: none
+        }
+
+        .fil button {
+            background: #fff;
+            color: var(--tinta);
+            border: 2px solid var(--linea);
+            min-height: 46px;
+            padding: .4rem 1.1rem
+        }
+
+        .fil button.on {
+            background: var(--acento);
+            color: #fff;
+            border-color: var(--acento)
+        }
+
+        #subfiltros button {
+            font-size: 1rem;
+            min-height: 40px;
+            padding: .3rem .9rem
+        }
+
         [hidden] {
             display: none !important
         }
@@ -248,6 +279,8 @@
         <h1>Arma tu pedido</h1>
         <p class="s">Toca <b>Agregar</b> en las figuras que te gusten. Al final se abre WhatsApp con tu pedido ya
             escrito.</p>
+        <div id="filtros" class="fil"></div>
+        <div id="subfiltros" class="fil"></div>
         <div id="lista" class="grid"></div>
         <h2>Tus datos</h2>
         <form id="f">
@@ -284,7 +317,7 @@
     </div>
     <script>
         const $ = s => document.querySelector(s), M = n => '$' + n, sel = n => document.querySelector('input[name=' + n + ']:checked').value;
-        let C, F, cart = {}, vend = null, tipo = 'punto';
+        let C, F, cart = {}, vend = null, tipo = 'punto', cat = 'Todas', sub = '';
         Promise.all([fetch('config.json'), fetch('catalogo.json')].map(p => p.then(r => r.json()))).then(([c, f]) => { C = c; F = f; init() })
             .catch(() => $('#lista').textContent = 'No se pudo cargar el catálogo. Intenta de nuevo.');
         function init() {
@@ -295,10 +328,23 @@
             if (!vend) { $('#bv').hidden = false; $('#bv').insertAdjacentHTML('beforeend', dis.map(v => `<label><input type="radio" name="vd" value="${v.id}"> ${v.nombre}</label>`).join('')) }
             $('#pto').innerHTML = C.puntos_entrega.map(x => `<option>${x}</option>`).join('');
             $('#zona').innerHTML = C.zonas.map((z, i) => `<option value="${i}">${z.nombre} (aprox. ${z.km} km)</option>`).join('') + '<option value="x">Otra zona (te cotizamos)</option>';
-            pinta(); fechaMin(); calc2();
+            filtros(); pinta(); fechaMin(); calc2();
             $('#botones-dudas').innerHTML = (vend ? [vend] : dis).map(v => `<a class="b" style="display:block;margin-bottom:.6rem" target="_blank" rel="noopener" href="https://wa.me/${v.telefono}?text=${m}">Escribir a ${v.nombre}</a>`).join('');
         }
-        function pinta() { $('#lista').innerHTML = F.map(f => `<article class="k"><div class="im"><img src="${f.imagen}" alt="${f.nombre}" onerror="this.remove()"></div><h3>${f.nombre}</h3><p>${f.medidas}</p><p><b>${M(f.precio)}</b>${f.precio_mayoreo ? ` · ${M(f.precio_mayoreo)} desde ${C.mayoreo_desde_piezas} piezas` : ''}</p><div class="q" data-id="${f.id}">${cart[f.id] ? `<button type="button" data-d="-1">−</button><b>${cart[f.id]}</b><button type="button" data-d="1">+</button>` : `<button type="button" class="b" data-d="1">Agregar</button>`}</div></article>`).join('') }
+        const esNav = f => (f.etiquetas || []).includes('Navidad');
+        const enCat = f => cat === 'Todas' || (cat === 'Navidad' ? esNav(f) : f.categoria === cat);
+        const campoSub = () => cat === 'Navidad' ? 'categoria' : 'subcategoria';
+        function visibles() { return F.filter(f => enCat(f) && (!sub || f[campoSub()] === sub)) }
+        function filtros() {
+            const cats = ['Todas', ...new Set(F.map(f => f.categoria).filter(Boolean))];
+            if (F.some(esNav)) cats.push('Navidad');
+            $('#filtros').innerHTML = cats.map(c => `<button type="button" data-c="${c}" class="${c === cat ? 'on' : ''}">${c}</button>`).join('');
+            const subs = cat === 'Todas' ? [] : [...new Set(F.filter(enCat).map(f => f[campoSub()]).filter(Boolean))];
+            $('#subfiltros').innerHTML = subs.length ? ['Todas', ...subs].map(s => `<button type="button" data-s="${s}" class="${(s === 'Todas' ? '' : s) === sub ? 'on' : ''}">${s}</button>`).join('') : '';
+        }
+        function pinta() { $('#lista').innerHTML = visibles().map(f => `<article class="k"><div class="im"><img src="${f.imagen}" alt="${f.nombre}" onerror="this.remove()"></div><h3>${f.nombre}</h3><p>${f.medidas}</p><p><b>${M(f.precio)}</b>${f.precio_mayoreo ? ` · ${M(f.precio_mayoreo)} desde ${C.mayoreo_desde_piezas} piezas` : ''}</p><div class="q" data-id="${f.id}">${cart[f.id] ? `<button type="button" data-d="-1">−</button><b>${cart[f.id]}</b><button type="button" data-d="1">+</button>` : `<button type="button" class="b" data-d="1">Agregar</button>`}</div></article>`).join('') }
+        $('#filtros').onclick = e => { const b = e.target.closest('button[data-c]'); if (!b) return; cat = b.dataset.c; sub = ''; filtros(); pinta() };
+        $('#subfiltros').onclick = e => { const b = e.target.closest('button[data-s]'); if (!b) return; sub = b.dataset.s === 'Todas' ? '' : b.dataset.s; filtros(); pinta() };
         $('#lista').onclick = e => { const b = e.target.closest('button[data-d]'); if (!b) return; const id = b.parentNode.dataset.id; cart[id] = (cart[id] || 0) + +b.dataset.d; if (cart[id] < 1) delete cart[id]; pinta(); calc2() };
         function calc() {
             const it = F.filter(f => cart[f.id]), n = it.reduce((a, f) => a + cart[f.id], 0), may = n >= C.mayoreo_desde_piezas;
