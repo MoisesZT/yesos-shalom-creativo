@@ -9,7 +9,7 @@
         "imagen": "images/sonadora-1.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Mujeres",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "sonadora-2",
@@ -21,7 +21,7 @@
         "imagen": "images/sonadora-2.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Mujeres",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "nina-1",
@@ -33,7 +33,7 @@
         "imagen": "images/nina-1.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Niñas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "nina-2",
@@ -45,7 +45,7 @@
         "imagen": "images/nina-2.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Niñas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "nina-6",
@@ -57,7 +57,7 @@
         "imagen": "images/nina-6.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Niñas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "mujer-1",
@@ -69,7 +69,7 @@
         "imagen": "images/mujer-1.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Mujeres",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "mujer-2",
@@ -81,7 +81,7 @@
         "imagen": "images/mujer-2.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Mujeres",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "mujer-3",
@@ -93,7 +93,7 @@
         "imagen": "images/mujer-3.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Mujeres",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "mujer-4",
@@ -105,7 +105,7 @@
         "imagen": "images/mujer-4.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "Mujeres",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-sofia",
@@ -117,7 +117,7 @@
         "imagen": "images/alcancia-sofia.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-moana",
@@ -129,7 +129,7 @@
         "imagen": "images/alcancia-moana.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-bella",
@@ -141,7 +141,7 @@
         "imagen": "images/alcancia-bella.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-alicia",
@@ -153,7 +153,7 @@
         "imagen": "images/alcancia-alicia.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-valiente-merida",
@@ -165,7 +165,7 @@
         "imagen": "images/alcancia-valiente-merida.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-tinker-bell",
@@ -177,7 +177,7 @@
         "imagen": "images/alcancia-tinker-bell.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-rapunzel",
@@ -189,7 +189,7 @@
         "imagen": "images/alcancia-rapunzel.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-cenicienta",
@@ -201,7 +201,7 @@
         "imagen": "images/alcancia-cenicienta.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-blanca-nievas",
@@ -213,7 +213,7 @@
         "imagen": "images/alcancia-blanca-nieves.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-tiana",
@@ -225,7 +225,7 @@
         "imagen": "images/alcancia-tiana.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-ana",
@@ -237,7 +237,7 @@
         "imagen": "images/alcancia-ana.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-elsa",
@@ -249,7 +249,7 @@
         "imagen": "images/alcancia-elsa.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-toro",
@@ -261,7 +261,7 @@
         "imagen": "images/alcancia-toro.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-vaca",
@@ -273,7 +273,7 @@
         "imagen": "images/alcancia-vaca.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-sombrero",
@@ -285,7 +285,7 @@
         "imagen": "images/alcancia-sombrero.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-bota-1",
@@ -297,7 +297,7 @@
         "imagen": "images/alcancia-bota-1.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-bota-2",
@@ -309,7 +309,7 @@
         "imagen": "images/alcancia-bota-2.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-woody",
@@ -321,7 +321,7 @@
         "imagen": "images/alcancia-woody.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Toy Story",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-jessie",
@@ -333,7 +333,7 @@
         "imagen": "images/alcancia-jessie.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Toy Story",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-rex",
@@ -345,7 +345,7 @@
         "imagen": "images/alcancia-rex.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Toy Story",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-chase",
@@ -357,7 +357,7 @@
         "imagen": "images/alcancia-chase.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Paw Patrol",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-skye",
@@ -369,7 +369,7 @@
         "imagen": "images/alcancia-skye.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Paw Patrol",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-bob-esponja",
@@ -381,7 +381,7 @@
         "imagen": "images/alcancia-bob-esponja.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-patricio",
@@ -393,7 +393,7 @@
         "imagen": "images/alcancia-patricio.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-gary",
@@ -405,7 +405,7 @@
         "imagen": "images/alcancia-gary.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-calamador",
@@ -417,7 +417,7 @@
         "imagen": "images/alcancia-skye.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-don-cangrejo",
@@ -429,7 +429,7 @@
         "imagen": "images/alcancia-don-cangrejo.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-carl-fredricksen",
@@ -441,7 +441,7 @@
         "imagen": "images/alcancia-carl-fredricksen.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Up. una aventura de altura",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-ellie",
@@ -453,7 +453,7 @@
         "imagen": "images/alcancia-ellie.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Up. una aventura de altura",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-pebbles",
@@ -465,7 +465,7 @@
         "imagen": "images/alcancia-pebbles.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Los picapiedras",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-bam-bam",
@@ -477,7 +477,7 @@
         "imagen": "images/alcancia-bam-bam.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Los picapiedras",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-lady-bug",
@@ -489,7 +489,7 @@
         "imagen": "images/alcancia-lady-bug.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Miraculos",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-hercules",
@@ -501,7 +501,7 @@
         "imagen": "images/alcancia-hercules.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Hércules",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-pegaso",
@@ -513,7 +513,7 @@
         "imagen": "images/alcancia-pegaso.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Hércules",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-iron-am",
@@ -525,7 +525,7 @@
         "imagen": "images/alcancia-iron-man.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Super Heroes",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-spider-man",
@@ -537,7 +537,7 @@
         "imagen": "images/alcancia-spider-man.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Super Heroes",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-stich",
@@ -549,7 +549,7 @@
         "imagen": "images/alcancia-stich.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Lilo y Stich",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-lilo",
@@ -561,7 +561,7 @@
         "imagen": "images/alcancia-lilo.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Lilo y Stich",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-winnie",
@@ -573,7 +573,7 @@
         "imagen": "images/alcancia-winnie.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-igor",
@@ -585,7 +585,7 @@
         "imagen": "images/alcancia-igor.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-tigger",
@@ -597,7 +597,7 @@
         "imagen": "images/alcancia-tigger.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-puerquito",
@@ -609,7 +609,7 @@
         "imagen": "images/alcancia-puerquito.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-dino-largo",
@@ -621,7 +621,7 @@
         "imagen": "images/alcancia-dino-largo.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Dinosaurios",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-triceraptos",
@@ -633,7 +633,7 @@
         "imagen": "images/alcancia-triceraptos.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Dinosaurios",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-yoshi",
@@ -645,7 +645,7 @@
         "imagen": "images/alcancia-yoshi.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Dinosaurios",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-leoncito",
@@ -657,7 +657,7 @@
         "imagen": "images/alcancia-leoncito.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-jirafa",
@@ -669,7 +669,7 @@
         "imagen": "images/alcancia-yoshi.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-caballo",
@@ -681,7 +681,7 @@
         "imagen": "images/alcancia-caballo.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-zebra",
@@ -693,7 +693,7 @@
         "imagen": "images/alcancia-zebra.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-hipopotamo",
@@ -705,7 +705,7 @@
         "imagen": "images/alcancia-hipopotamo.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-monito",
@@ -717,7 +717,7 @@
         "imagen": "images/alcancia-monito.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-jorge-el-curioso",
@@ -729,7 +729,7 @@
         "imagen": "images/alcancia-jorge-el-curioso.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-elefantito",
@@ -741,7 +741,7 @@
         "imagen": "images/alcancia-elefantito.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-leoncito-sol",
@@ -753,7 +753,7 @@
         "imagen": "images/alcancia-leoncito-sol.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-zorrito",
@@ -765,7 +765,7 @@
         "imagen": "images/alcancia-zorrito.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-pato-pato",
@@ -777,7 +777,7 @@
         "imagen": "images/alcancia-pato-pato.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-pato-gigante",
@@ -789,7 +789,7 @@
         "imagen": "images/alcancia-pato-gigante.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-oveja",
@@ -801,7 +801,7 @@
         "imagen": "images/alcancia-oveja.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-cochinito-narizon",
@@ -813,7 +813,7 @@
         "imagen": "images/alcancia-cochinito-narizon.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Cerditos",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-cochino",
@@ -825,7 +825,7 @@
         "imagen": "images/alcancia-cochino.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Cerditos",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-charlie",
@@ -837,7 +837,7 @@
         "imagen": "images/alcancia-charlie.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-snoopy-grande",
@@ -849,7 +849,7 @@
         "imagen": "images/alcancia-snoopy-grande.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-casita-snoopy",
@@ -861,7 +861,7 @@
         "imagen": "images/alcancia-casita-snoopy.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-snoopy-pequeño",
@@ -873,7 +873,7 @@
         "imagen": "images/alcancia-snoopy-pequeño.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-woodstock",
@@ -885,7 +885,7 @@
         "imagen": "images/alcancia-woodstock.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-snoopy-gorro",
@@ -897,7 +897,7 @@
         "imagen": "images/alcancia-snoopy-gorro.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -911,7 +911,7 @@
         "imagen": "images/alcancia-charlie-gorro.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -925,7 +925,7 @@
         "imagen": "images/alcancia-lucy-gorro.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -939,7 +939,7 @@
         "imagen": "images/alcancia-plim-plim.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Plim Plim",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-abejita-chiquitita",
@@ -951,7 +951,7 @@
         "imagen": "images/alcancia-abejita-chiquitita.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Plim Plim",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-bluey",
@@ -963,7 +963,7 @@
         "imagen": "images/alcancia-bluey.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Bluey",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-bingo",
@@ -975,7 +975,7 @@
         "imagen": "images/alcancia-bingo.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Bluey",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-rana",
@@ -987,7 +987,7 @@
         "imagen": "images/alcancia-rana.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Ranas",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-perro",
@@ -999,7 +999,7 @@
         "imagen": "images/alcancia-perro.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Perros",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-mama-coneja",
@@ -1011,7 +1011,7 @@
         "imagen": "images/alcancia-mama-coneja.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Conejos",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-osita",
@@ -1023,7 +1023,7 @@
         "imagen": "images/alcancia-osita.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Ositos",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-teddy",
@@ -1035,7 +1035,7 @@
         "imagen": "images/alcancia-teddy.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Ositos",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-oso-geometrico",
@@ -1047,7 +1047,7 @@
         "imagen": "images/alcancia-oso-geometrico.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Ositos",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-buho-graduacion-1",
@@ -1059,7 +1059,7 @@
         "imagen": "images/alcancia-buho-graduacion-1.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Graduacion",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-buho-graduacion-2",
@@ -1071,7 +1071,7 @@
         "imagen": "images/alcancia-buho-graduacion-2.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Graduacion",
-        "etiqueteas": []
+        "etiquetas": []
     },
     {
         "id": "alcancia-cascanueces-gigante",
@@ -1083,7 +1083,7 @@
         "imagen": "images/alcancia-cascanueses-gigante.jpg",
         "categoria": "Alcancias",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1097,7 +1097,7 @@
         "imagen": "images/alcancia-cascanueses.jpg",
         "categoria": "Alcancias",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1111,7 +1111,7 @@
         "imagen": "images/alcancia-santa.jpg",
         "categoria": "Alcancias",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1125,7 +1125,7 @@
         "imagen": "images/plato-pino.jpg",
         "categoria": "Platos",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1139,7 +1139,7 @@
         "imagen": "images/plato-reno.jpg",
         "categoria": "Platos",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1153,7 +1153,7 @@
         "imagen": "images/alajero-pino-grande.jpg",
         "categoria": "Alajeros",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1167,7 +1167,7 @@
         "imagen": "images/alajero-pino-mediano.jpg",
         "categoria": "Alajeros",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1181,7 +1181,7 @@
         "imagen": "images/alajero-osito.jpg",
         "categoria": "Alajeros",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1195,7 +1195,7 @@
         "imagen": "images/esfera-navideña.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1209,7 +1209,7 @@
         "imagen": "images/santa-porta-lapiz.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1223,7 +1223,7 @@
         "imagen": "images/trenesito-maceta.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1237,7 +1237,7 @@
         "imagen": "images/placa-santa.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1251,7 +1251,7 @@
         "imagen": "images/placa-pino.jpg",
         "categoria": "Figuras diversas",
         "subcategoria": "",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1265,7 +1265,7 @@
         "imagen": "images/alcancia-minnie.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Micky Mouse",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1279,7 +1279,7 @@
         "imagen": "images/alcancia-micky.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Micky Mouse",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     },
@@ -1293,7 +1293,7 @@
         "imagen": "images/alcancia-goofy.jpg",
         "categoria": "Alcancias",
         "subcategoria": "Micky Mouse",
-        "etiqueteas": [
+        "etiquetas": [
             "Navidad"
         ]
     }
