@@ -331,13 +331,14 @@
             filtros(); pinta(); fechaMin(); calc2();
             $('#botones-dudas').innerHTML = (vend ? [vend] : dis).map(v => `<a class="b" style="display:block;margin-bottom:.6rem" target="_blank" rel="noopener" href="https://wa.me/${v.telefono}?text=${m}">Escribir a ${v.nombre}</a>`).join('');
         }
-        const esNav = f => (f.etiquetas || []).includes('Navidad');
+        const esNav = f => [f.etiquetas, f.etiqueta, f.subcategoria, f.categoria].flat().filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().includes('navid');
         const enCat = f => cat === 'Todas' || (cat === 'Navidad' ? esNav(f) : f.categoria === cat);
         const campoSub = () => cat === 'Navidad' ? 'categoria' : 'subcategoria';
         function visibles() { return F.filter(f => enCat(f) && (!sub || f[campoSub()] === sub)) }
         function filtros() {
-            const cats = ['Todas', ...new Set(F.map(f => f.categoria).filter(Boolean))];
-            if (F.some(esNav)) cats.push('Navidad');
+            const cats = ['Todas', ...new Set(F.map(f => f.categoria).filter(Boolean))].filter(c => c !== 'Navidad');
+            const i = cats.findIndex(c => c.toLowerCase().includes('ajero'));
+            cats.splice(i >= 0 ? i + 1 : cats.length, 0, 'Navidad');
             $('#filtros').innerHTML = cats.map(c => `<button type="button" data-c="${c}" class="${c === cat ? 'on' : ''}">${c}</button>`).join('');
             const subs = cat === 'Todas' ? [] : [...new Set(F.filter(enCat).map(f => f[campoSub()]).filter(Boolean))];
             $('#subfiltros').innerHTML = subs.length ? ['Todas', ...subs].map(s => `<button type="button" data-s="${s}" class="${(s === 'Todas' ? '' : s) === sub ? 'on' : ''}">${s}</button>`).join('') : '';
