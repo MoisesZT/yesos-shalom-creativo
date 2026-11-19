@@ -1,0 +1,38 @@
+[
+    {
+        "id": "sonadora-1",
+        "nombre": "Soñadora 1",
+        "medidas": "20 cm de alto · 13 cm de ancho",
+        "precio": 40,
+        "precio_mayoreo": 35,
+        "volumen": 2,
+        "imagen": "images/sonadora-1.jpg"
+    },
+    {
+        "id": "ejemplo-panda",
+        "nombre": "Panda (ejemplo)",
+        "medidas": "Cambiar medidas",
+        "precio": 50,
+        "precio_mayoreo": 45,
+        "volumen": 2,
+        "imagen": "images/panda.jpg"
+    },
+    {
+        "id": "ejemplo-patito",
+        "nombre": "Patito alcancía (ejemplo)",
+        "medidas": "Cambiar medidas",
+        "precio": 45,
+        "precio_mayoreo": 40,
+        "volumen": 1,
+        "imagen": "images/patito.jpg"
+    },
+    {
+        "id": "ejemplo-rana",
+        "nombre": "Rana (ejemplo)",
+        "medidas": "Cambiar medidas",
+        "precio": 60,
+        "precio_mayoreo": 55,
+        "volumen": 2,
+        "imagen": "images/rana.jpg"
+    }
+]

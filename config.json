@@ -1,0 +1,87 @@
+{
+    "vendedores": [
+        {
+            "id": "uno",
+            "nombre": "Ramón",
+            "telefono": "529512369987",
+            "disponible": true
+        },
+        {
+            "id": "dos",
+            "nombre": "Jessica",
+            "telefono": "529515858462",
+            "disponible": true
+        }
+    ],
+    "asignacion_nuevos": "elegir",
+    "pedido_minimo": 100,
+    "mayoreo_desde_piezas": 6,
+    "dias_minimos": {
+        "sin_pintar": 4,
+        "pintada": 7
+    },
+    "fechas_bloqueadas": [
+        "2026-12-24",
+        "2026-12-25"
+    ],
+    "envio_punto": 40,
+    "puntos_entrega": [
+        "Entrada de San Isidro (vía corta)",
+        "Ojo de Agua – Tepeyac (gasolinera)",
+        "Puente de Nazareno (tortillería y mototaxis)",
+        "Entrada a Mi Ranchito (gasolinera 5G frente a Pitico)",
+        "Elektra Xoxocotlán",
+        "Chedraui Xoxocotlán",
+        "Bodega Aurrerá Santa Anita",
+        "Parque del Amor (taxis del CRIT o los arcos)"
+    ],
+    "tarifas_km": [
+        {
+            "hasta": 10,
+            "precio": 40
+        },
+        {
+            "hasta": 15,
+            "precio": 60
+        },
+        {
+            "hasta": 25,
+            "precio": 90
+        },
+        {
+            "hasta": 40,
+            "precio": 130
+        }
+    ],
+    "zonas": [
+        {
+            "nombre": "Xoxocotlán centro",
+            "km": 3
+        },
+        {
+            "nombre": "Oaxaca centro",
+            "km": 9
+        },
+        {
+            "nombre": "Reforma / Hospital Civil",
+            "km": 10
+        },
+        {
+            "nombre": "Tlacolula",
+            "km": 30
+        }
+    ],
+    "cajas": [
+        {
+            "hasta_volumen": 4,
+            "nombre": "Caja chica o mediana",
+            "precio": 10
+        },
+        {
+            "hasta_volumen": 10,
+            "nombre": "Caja grande",
+            "precio": 25
+        }
+    ],
+    "url_hoja": ""
+}

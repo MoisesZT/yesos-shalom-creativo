@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arma tu pedido | Shalom Creativo</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --fondo: #f6f7f5;
+            --tinta: #15261f;
+            --suave: #596861;
+            --linea: #e0e5e1;
+            --acento: #1f4d3f;
+            --menta: #b7dcc5
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            font-family: Nunito, system-ui, sans-serif;
+            background: var(--fondo);
+            color: var(--tinta);
+            font-size: 1.15rem;
+            line-height: 1.5;
+            padding-bottom: 6rem
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: Fredoka, sans-serif;
+            font-weight: 600;
+            line-height: 1.2
+        }
+
+        .c {
+            width: min(1000px, 92%);
+            margin: auto
+        }
+
+        header {
+            padding: 1rem 0
+        }
+
+        header .c {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            font: 600 1.4rem Fredoka;
+            text-decoration: none;
+            color: inherit
+        }
+
+        .logo img {
+            height: 48px;
+            mix-blend-mode: multiply
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin: .5rem 0
+        }
+
+        h2 {
+            margin: 2rem 0 .8rem
+        }
+
+        .s {
+            color: var(--suave)
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            gap: 1.2rem;
+            margin-top: 1.2rem
+        }
+
+        .k {
+            background: #fff;
+            border-radius: 18px;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: .3rem
+        }
+
+        .im {
+            aspect-ratio: 1;
+            border-radius: 14px;
+            background: var(--menta);
+            overflow: hidden
+        }
+
+        .im img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover
+        }
+
+        .k p {
+            color: var(--suave);
+            font-size: 1rem
+        }
+
+        .k p b {
+            color: var(--tinta);
+            font-size: 1.3rem
+        }
+
+        .q {
+            margin-top: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: .5rem;
+            padding-top: .5rem
+        }
+
+        button,
+        .b {
+            font: 700 1.15rem Nunito;
+            min-height: 52px;
+            padding: .7rem 1.4rem;
+            border: 0;
+            border-radius: 999px;
+            background: var(--acento);
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center
+        }
+
+        .q button:not(.b) {
+            width: 52px;
+            padding: 0;
+            font-size: 1.6rem
+        }
+
+        .q .b {
+            width: 100%
+        }
+
+        .q>b {
+            font-size: 1.5rem
+        }
+
+        form {
+            background: #fff;
+            border-radius: 18px;
+            padding: 1.5rem;
+            display: grid;
+            gap: 1.1rem
+        }
+
+        label,
+        legend {
+            font-weight: 700;
+            display: block
+        }
+
+        fieldset {
+            border: 0
+        }
+
+        input[type=text],
+        input[type=date],
+        select,
+        textarea {
+            width: 100%;
+            font: inherit;
+            padding: .8rem;
+            border: 2px solid var(--linea);
+            border-radius: 12px;
+            margin-top: .3rem
+        }
+
+        .r label {
+            display: flex;
+            gap: .7rem;
+            align-items: center;
+            font-weight: 600;
+            padding: .5rem 0
+        }
+
+        .r input {
+            width: 26px;
+            height: 26px
+        }
+
+        #tot {
+            background: var(--fondo);
+            padding: 1rem;
+            border-radius: 12px;
+            font-weight: 700
+        }
+
+        .av {
+            color: #a3321f;
+            font-weight: 700
+        }
+
+        #barra {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            border-top: 1px solid var(--linea);
+            padding: .8rem 4%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem
+        }
+
+        [hidden] {
+            display: none !important
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="c">
+            <a class="logo" href="index.html"><img src="images/small_logo.jpg" alt=""><span>Shalom Creativo</span></a>
+            <a class="b" href="index.html">← Volver al inicio</a>
+        </div>
+    </header>
+    <main class="c">
+        <h1>Arma tu pedido</h1>
+        <p class="s">Toca <b>Agregar</b> en las figuras que te gusten. Al final se abre WhatsApp con tu pedido ya
+            escrito.</p>
+        <div id="lista" class="grid"></div>
+        <h2>Tus datos</h2>
+        <form id="f">
+            <label>Tu nombre<input type="text" id="nom" required></label>
+            <fieldset class="r">
+                <legend>¿Cómo las quieres?</legend>
+                <label><input type="radio" name="pi" value="sin" checked> Sin pintar</label>
+                <label><input type="radio" name="pi" value="pintadas"> Pintadas (el pintado se cotiza por
+                    WhatsApp)</label>
+            </fieldset>
+            <label>¿Para qué día las necesitas?<input type="date" id="fec" required></label>
+            <small class="s" id="ayuda"></small>
+            <fieldset class="r">
+                <legend>Entrega</legend>
+                <label><input type="radio" name="tp" value="punto" checked> En un punto de entrega</label>
+                <label><input type="radio" name="tp" value="dom"> A domicilio</label>
+            </fieldset>
+            <div id="bp"><label>Punto de entrega<select id="pto"></select></label></div>
+            <div id="bd" hidden><label>Zona<select id="zona"></select></label>
+                <label>Calle, colonia y referencias<input type="text" id="dir"></label>
+            </div>
+            <fieldset class="r" id="bv" hidden>
+                <legend>¿Con quién quieres hablar?</legend>
+            </fieldset>
+            <label>Notas (colores, nombre en la pieza…)<textarea id="nt" rows="3"></textarea></label>
+            <div id="tot"></div>
+            <button type="submit">Enviar mi pedido por WhatsApp</button>
+        </form>
+        <h2 id="dudas">¿Tienes dudas?</h2>
+        <p class="s">Escríbenos y te ayudamos.</p>
+        <div id="botones-dudas"></div>
+    </main>
+    <div id="barra"><span id="res">Aún no hay piezas</span><a class="b" href="#f">Terminar mi pedido</a>
+    </div>
+    <script>
+        const $ = s => document.querySelector(s), M = n => '$' + n, sel = n => document.querySelector('input[name=' + n + ']:checked').value;
+        let C, F, cart = {}, vend = null, tipo = 'punto';
+        Promise.all([fetch('config.json'), fetch('catalogo.json')].map(p => p.then(r => r.json()))).then(([c, f]) => { C = c; F = f; init() })
+            .catch(() => $('#lista').textContent = 'No se pudo cargar el catálogo. Intenta de nuevo.');
+        function init() {
+            const p = new URLSearchParams(location.search).get('v'), dis = C.vendedores.filter(v => v.disponible);
+            const m = encodeURIComponent('Hola, tengo una duda sobre sus piezas de yeso');
+
+            vend = C.vendedores.find(v => v.id === p) || (dis.length == 1 ? dis[0] : (C.asignacion_nuevos === 'azar' ? dis[Math.floor(Math.random() * dis.length)] : null));
+            if (!vend) { $('#bv').hidden = false; $('#bv').insertAdjacentHTML('beforeend', dis.map(v => `<label><input type="radio" name="vd" value="${v.id}"> ${v.nombre}</label>`).join('')) }
+            $('#pto').innerHTML = C.puntos_entrega.map(x => `<option>${x}</option>`).join('');
+            $('#zona').innerHTML = C.zonas.map((z, i) => `<option value="${i}">${z.nombre} (aprox. ${z.km} km)</option>`).join('') + '<option value="x">Otra zona (te cotizamos)</option>';
+            pinta(); fechaMin(); calc2();
+            $('#botones-dudas').innerHTML = (vend ? [vend] : dis).map(v => `<a class="b" style="display:block;margin-bottom:.6rem" target="_blank" rel="noopener" href="https://wa.me/${v.telefono}?text=${m}">Escribir a ${v.nombre}</a>`).join('');
+        }
+        function pinta() { $('#lista').innerHTML = F.map(f => `<article class="k"><div class="im"><img src="${f.imagen}" alt="${f.nombre}" onerror="this.remove()"></div><h3>${f.nombre}</h3><p>${f.medidas}</p><p><b>${M(f.precio)}</b>${f.precio_mayoreo ? ` · ${M(f.precio_mayoreo)} desde ${C.mayoreo_desde_piezas} piezas` : ''}</p><div class="q" data-id="${f.id}">${cart[f.id] ? `<button type="button" data-d="-1">−</button><b>${cart[f.id]}</b><button type="button" data-d="1">+</button>` : `<button type="button" class="b" data-d="1">Agregar</button>`}</div></article>`).join('') }
+        $('#lista').onclick = e => { const b = e.target.closest('button[data-d]'); if (!b) return; const id = b.parentNode.dataset.id; cart[id] = (cart[id] || 0) + +b.dataset.d; if (cart[id] < 1) delete cart[id]; pinta(); calc2() };
+        function calc() {
+            const it = F.filter(f => cart[f.id]), n = it.reduce((a, f) => a + cart[f.id], 0), may = n >= C.mayoreo_desde_piezas;
+            const sub = it.reduce((a, f) => a + cart[f.id] * (may && f.precio_mayoreo ? f.precio_mayoreo : f.precio), 0);
+            const vol = it.reduce((a, f) => a + cart[f.id] * f.volumen, 0), cj = C.cajas.find(c => vol <= c.hasta_volumen);
+            let env = null;
+            if (tipo === 'punto') env = C.envio_punto; else { const z = C.zonas[$('#zona').value], t = z && C.tarifas_km.find(t => z.km <= t.hasta); env = t ? t.precio : null }
+            return { it, n, sub, cj, env, total: sub + (env || 0) + (cj ? cj.precio : 0) }
+        }
+        function calc2() {
+            const c = calc();
+            $('#res').textContent = c.n ? `${c.n} pieza(s) · ${M(c.sub)}` : 'Aún no hay piezas';
+            const falta = c.n && c.sub < C.pedido_minimo ? `<div class="av">La compra mínima es de ${M(C.pedido_minimo)} (sin envío). Te faltan ${M(C.pedido_minimo - c.sub)}.</div>` : '';
+            $('#tot').innerHTML = `Piezas ${M(c.sub)} + envío ${c.env === null ? 'por confirmar' : M(c.env)} + caja ${c.cj ? M(c.cj.precio) : 'por confirmar'}<br>Total: ${M(c.total)}${c.env === null || !c.cj ? ' + lo que falta confirmar' : ''}${falta}`
+        }
+        function fechaMin() {
+            const d = new Date(); d.setDate(d.getDate() + C.dias_minimos[sel('pi') === 'pintadas' ? 'pintada' : 'sin_pintar']);
+            $('#fec').min = d.toLocaleDateString('sv-SE'); $('#ayuda').textContent = 'Necesitamos mínimo ' + C.dias_minimos[sel('pi') === 'pintadas' ? 'pintada' : 'sin_pintar'] + ' días para prepararlas.'
+        }
+        document.querySelectorAll('input[name=pi]').forEach(r => r.onchange = fechaMin);
+        document.querySelectorAll('input[name=tp]').forEach(r => r.onchange = () => { tipo = sel('tp'); $('#bp').hidden = tipo !== 'punto'; $('#bd').hidden = tipo === 'punto'; calc2() });
+        $('#zona').onchange = calc2;
+        $('#f').onsubmit = e => {
+            e.preventDefault(); const c = calc();
+            if (!c.n) return alert('Agrega al menos una pieza.');
+            if (c.sub < C.pedido_minimo) return alert('La compra mínima es de ' + M(C.pedido_minimo) + ' (sin envío).');
+            const v = vend || C.vendedores.find(x => x.id === (document.querySelector('input[name=vd]:checked') || {}).value);
+            if (!v) return alert('Elige con quién quieres hablar.');
+            const fec = $('#fec').value; if (C.fechas_bloqueadas.includes(fec)) return alert('Ese día no entregamos. Elige otro, por favor.');
+            if (tipo === 'dom' && !$('#dir').value) return alert('Escribe tu dirección.');
+            const pint = sel('pi') === 'pintadas' ? 'Pintadas' : 'Sin pintar', piezas = c.it.map(f => cart[f.id] + ' ' + f.nombre).join(', ');
+            const ent = tipo === 'punto' ? 'Punto: ' + $('#pto').value : 'Domicilio: ' + $('#zona').selectedOptions[0].text + ' - ' + $('#dir').value;
+            const id = 'YSC-' + fec.slice(5).replace('-', '') + '-' + Math.floor(1000 + Math.random() * 9000);
+            const env = c.env === null ? 'por confirmar' : M(c.env), caja = c.cj ? M(c.cj.precio) : 'por confirmar';
+            const d = { id, vendedor: v.nombre, cliente: $('#nom').value, piezas, pintadas: pint, fecha: fec, entrega: ent, subtotal: c.sub, envio: env, caja, total: c.total, notas: $('#nt').value };
+            const txt = `Hola ${v.nombre}, soy ${d.cliente}.\nPedido ${id}\nPiezas: ${piezas}\n${pint}\nPara el: ${fec.split('-').reverse().join('/')}\nEntrega: ${ent}\nPiezas ${M(c.sub)} + envío ${env} + caja ${caja} = Total ${M(c.total)}\nNotas: ${d.notas || 'ninguna'}`;
+            if (C.url_hoja) fetch(C.url_hoja, { method: 'POST', mode: 'no-cors', keepalive: true, body: JSON.stringify(d) }).catch(() => { });
+            setTimeout(() => location.href = 'https://wa.me/' + v.telefono + '?text=' + encodeURIComponent(txt), 500)
+        };
+    </script>
+</body>
+
+</html>
