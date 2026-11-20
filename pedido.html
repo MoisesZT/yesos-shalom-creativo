@@ -29,10 +29,11 @@
             font-family: Nunito, system-ui, sans-serif;
             background: var(--fondo);
             color: var(--tinta);
-            font-size: 1.15rem;
+            font-size: 1.3rem;
             line-height: 1.5;
             padding-bottom: 6rem
         }
+
 
         h1,
         h2,
@@ -102,6 +103,10 @@
             gap: .3rem
         }
 
+        .k h3 {
+            font-size: 1.45rem
+        }
+
         .im {
             aspect-ratio: 1;
             border-radius: 14px;
@@ -117,7 +122,7 @@
 
         .k p {
             color: var(--suave);
-            font-size: 1rem
+            font-size: 1.15rem
         }
 
         .k p b {
@@ -136,8 +141,8 @@
 
         button,
         .b {
-            font: 700 1.15rem Nunito;
-            min-height: 52px;
+            font: 700 1.3rem Nunito;
+            min-height: 56px;
             padding: .7rem 1.4rem;
             border: 0;
             border-radius: 999px;
@@ -246,8 +251,9 @@
             background: #fff;
             color: var(--tinta);
             border: 2px solid var(--linea);
-            min-height: 46px;
-            padding: .4rem 1.1rem
+            min-height: 54px;
+            padding: .4rem 1.3rem;
+            font-size: 1.2rem
         }
 
         .fil button.on {
@@ -257,9 +263,9 @@
         }
 
         #subfiltros button {
-            font-size: 1rem;
-            min-height: 40px;
-            padding: .3rem .9rem
+            font-size: 1.1rem;
+            min-height: 46px;
+            padding: .3rem 1rem
         }
 
         [hidden] {
@@ -282,6 +288,7 @@
         <div id="filtros" class="fil"></div>
         <div id="subfiltros" class="fil"></div>
         <div id="lista" class="grid"></div>
+        <button type="button" id="mas" class="b" hidden style="display:block;margin:1.5rem auto 0"></button>
         <h2>Tus datos</h2>
         <form id="f">
             <label>Tu nombre<input type="text" id="nom" required></label>
@@ -317,7 +324,7 @@
     </div>
     <script>
         const $ = s => document.querySelector(s), M = n => '$' + n, sel = n => document.querySelector('input[name=' + n + ']:checked').value;
-        let C, F, cart = {}, vend = null, tipo = 'punto', cat = 'Todas', sub = '';
+        let C, F, cart = {}, vend = null, tipo = 'punto', cat = '', sub = '', lim = 12;
         Promise.all([fetch('config.json'), fetch('catalogo.json')].map(p => p.then(r => r.json()))).then(([c, f]) => { C = c; F = f; init() })
             .catch(() => $('#lista').textContent = 'No se pudo cargar el catálogo. Intenta de nuevo.');
         function init() {
@@ -328,24 +335,38 @@
             if (!vend) { $('#bv').hidden = false; $('#bv').insertAdjacentHTML('beforeend', dis.map(v => `<label><input type="radio" name="vd" value="${v.id}"> ${v.nombre}</label>`).join('')) }
             $('#pto').innerHTML = C.puntos_entrega.map(x => `<option>${x}</option>`).join('');
             $('#zona').innerHTML = C.zonas.map((z, i) => `<option value="${i}">${z.nombre} (aprox. ${z.km} km)</option>`).join('') + '<option value="x">Otra zona (te cotizamos)</option>';
-            filtros(); pinta(); fechaMin(); calc2();
+            cat = cats()[0]; filtros(); pinta(); fechaMin(); calc2();
             $('#botones-dudas').innerHTML = (vend ? [vend] : dis).map(v => `<a class="b" style="display:block;margin-bottom:.6rem" target="_blank" rel="noopener" href="https://wa.me/${v.telefono}?text=${m}">Escribir a ${v.nombre}</a>`).join('');
         }
         const esNav = f => [f.etiquetas, f.etiqueta, f.subcategoria, f.categoria].flat().filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().includes('navid');
-        const enCat = f => cat === 'Todas' || (cat === 'Navidad' ? esNav(f) : f.categoria === cat);
         const campoSub = () => cat === 'Navidad' ? 'categoria' : 'subcategoria';
+        const cats = () => {
+            const c = [...new Set(F.map(f => f.categoria).filter(Boolean))].filter(x => x !== 'Navidad');
+            if (F.some(esNav)) {
+                const i = c.findIndex(x => x.toLowerCase().includes('ajero'));
+                c.splice(i >= 0 ? i + 1 : c.length, 0, 'Navidad');
+            }
+            return c;
+        };
+        const enCat = f => cat === 'Navidad' ? esNav(f) : f.categoria === cat;
         function visibles() { return F.filter(f => enCat(f) && (!sub || f[campoSub()] === sub)) }
         function filtros() {
-            const cats = ['Todas', ...new Set(F.map(f => f.categoria).filter(Boolean))].filter(c => c !== 'Navidad');
-            const i = cats.findIndex(c => c.toLowerCase().includes('ajero'));
-            cats.splice(i >= 0 ? i + 1 : cats.length, 0, 'Navidad');
-            $('#filtros').innerHTML = cats.map(c => `<button type="button" data-c="${c}" class="${c === cat ? 'on' : ''}">${c}</button>`).join('');
-            const subs = cat === 'Todas' ? [] : [...new Set(F.filter(enCat).map(f => f[campoSub()]).filter(Boolean))];
-            $('#subfiltros').innerHTML = subs.length ? ['Todas', ...subs].map(s => `<button type="button" data-s="${s}" class="${(s === 'Todas' ? '' : s) === sub ? 'on' : ''}">${s}</button>`).join('') : '';
+            $('#filtros').innerHTML = cats().map(c => `<button type="button" data-c="${c}" class="${c === cat ? 'on' : ''}">${c}</button>`).join('');
+            const subs = [...new Set(F.filter(enCat).map(f => f[campoSub()]).filter(Boolean))];
+            $('#subfiltros').innerHTML = subs.length > 1 ? ['Todas', ...subs].map(s => `<button type="button" data-s="${s}" class="${(s === 'Todas' ? '' : s) === sub ? 'on' : ''}">${s}</button>`).join('') : '';
         }
-        function pinta() { $('#lista').innerHTML = visibles().map(f => `<article class="k"><div class="im"><img src="${f.imagen}" alt="${f.nombre}" onerror="this.remove()"></div><h3>${f.nombre}</h3><p>${f.medidas}</p><p><b>${M(f.precio)}</b>${f.precio_mayoreo ? ` · ${M(f.precio_mayoreo)} desde ${C.mayoreo_desde_piezas} piezas` : ''}</p><div class="q" data-id="${f.id}">${cart[f.id] ? `<button type="button" data-d="-1">−</button><b>${cart[f.id]}</b><button type="button" data-d="1">+</button>` : `<button type="button" class="b" data-d="1">Agregar</button>`}</div></article>`).join('') }
-        $('#filtros').onclick = e => { const b = e.target.closest('button[data-c]'); if (!b) return; cat = b.dataset.c; sub = ''; filtros(); pinta() };
-        $('#subfiltros').onclick = e => { const b = e.target.closest('button[data-s]'); if (!b) return; sub = b.dataset.s === 'Todas' ? '' : b.dataset.s; filtros(); pinta() };
+        function pinta() {
+            const v = visibles();
+            $('#lista').innerHTML = v.slice(0, lim).map(f => `<article class="k"><div class="im"><img src="${f.imagen}" loading="lazy" alt="${f.nombre}" onerror="this.remove()"></div><h3>${f.nombre}</h3><p>${f.medidas}</p><p><b>${M(f.precio)}</b>${f.precio_mayoreo ? ` · ${M(f.precio_mayoreo)} desde ${C.mayoreo_desde_piezas} piezas` : ''}</p><div class="q" data-id="${f.id}">${cart[f.id] ? `<button type="button" data-d="-1">−</button><b>${cart[f.id]}</b><button type="button" data-d="1">+</button>` : `<button type="button" class="b" data-d="1">Agregar</button>`}</div></article>`).join('');
+            $('#mas').hidden = v.length <= lim;
+            $('#mas').textContent = `Ver más piezas (${v.length - lim} más)`;
+        }
+
+
+
+        $('#filtros').onclick = e => { const b = e.target.closest('button[data-c]'); if (!b) return; cat = b.dataset.c; sub = ''; lim = 12; filtros(); pinta() };
+        $('#subfiltros').onclick = e => { const b = e.target.closest('button[data-s]'); if (!b) return; sub = b.dataset.s === 'Todas' ? '' : b.dataset.s; lim = 12; filtros(); pinta() };
+        $('#mas').onclick = () => { lim += 12; pinta() };
         $('#lista').onclick = e => { const b = e.target.closest('button[data-d]'); if (!b) return; const id = b.parentNode.dataset.id; cart[id] = (cart[id] || 0) + +b.dataset.d; if (cart[id] < 1) delete cart[id]; pinta(); calc2() };
         function calc() {
             const it = F.filter(f => cart[f.id]), n = it.reduce((a, f) => a + cart[f.id], 0), may = n >= C.mayoreo_desde_piezas;
