@@ -309,9 +309,6 @@
             <div id="bd" hidden><label>Zona<select id="zona"></select></label>
                 <label>Calle, colonia y referencias<input type="text" id="dir"></label>
             </div>
-            <fieldset class="r" id="bv" hidden>
-                <legend>¿Con quién quieres hablar?</legend>
-            </fieldset>
             <label>Notas (colores, nombre en la pieza…)<textarea id="nt" rows="3"></textarea></label>
             <div id="tot"></div>
             <button type="submit">Enviar mi pedido por WhatsApp</button>
@@ -331,12 +328,12 @@
             const p = new URLSearchParams(location.search).get('v'), dis = C.vendedores.filter(v => v.disponible);
             const m = encodeURIComponent('Hola, tengo una duda sobre sus piezas de yeso');
 
-            vend = C.vendedores.find(v => v.id === p) || (dis.length == 1 ? dis[0] : (C.asignacion_nuevos === 'azar' ? dis[Math.floor(Math.random() * dis.length)] : null));
-            if (!vend) { $('#bv').hidden = false; $('#bv').insertAdjacentHTML('beforeend', dis.map(v => `<label><input type="radio" name="vd" value="${v.id}"> ${v.nombre}</label>`).join('')) }
+            vend = C.vendedores.find(v => v.id === p) || null;
             $('#pto').innerHTML = C.puntos_entrega.map(x => `<option>${x}</option>`).join('');
             $('#zona').innerHTML = C.zonas.map((z, i) => `<option value="${i}">${z.nombre} (aprox. ${z.km} km)</option>`).join('') + '<option value="x">Otra zona (te cotizamos)</option>';
             cat = cats()[0]; filtros(); pinta(); fechaMin(); calc2();
-            $('#botones-dudas').innerHTML = (vend ? [vend] : dis).map(v => `<a class="b" style="display:block;margin-bottom:.6rem" target="_blank" rel="noopener" href="https://wa.me/${v.telefono}?text=${m}">Escribir a ${v.nombre}</a>`).join('');
+            const dv = vend || dis[Math.floor(Math.random() * dis.length)];
+            $('#botones-dudas').innerHTML = `<a class="b" style="display:block" target="_blank" rel="noopener" href="https://wa.me/${dv.telefono}?text=${m}">Escribir por WhatsApp</a>`;
         }
         const esNav = f => [f.etiquetas, f.etiqueta, f.subcategoria, f.categoria].flat().filter(Boolean).join(' ').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().includes('navid');
         const campoSub = () => cat === 'Navidad' ? 'categoria' : 'subcategoria';
@@ -389,20 +386,36 @@
         document.querySelectorAll('input[name=pi]').forEach(r => r.onchange = fechaMin);
         document.querySelectorAll('input[name=tp]').forEach(r => r.onchange = () => { tipo = sel('tp'); $('#bp').hidden = tipo !== 'punto'; $('#bd').hidden = tipo === 'punto'; calc2() });
         $('#zona').onchange = calc2;
-        $('#f').onsubmit = e => {
+        async function elegir() {
+            if (vend) return vend;
+            const dis = C.vendedores.filter(v => v.disponible);
+            if (C.url_hoja) {
+                try {
+                    const ac = new AbortController();
+                    setTimeout(() => ac.abort(), 4000);
+                    const r = await fetch(C.url_hoja + '?turno=1', { signal: ac.signal });
+                    const t = await r.json();
+                    return dis[t.turno % dis.length];
+                } catch (x) { }
+            }
+            return dis[Math.floor(Math.random() * dis.length)];
+        }
+        $('#f').onsubmit = async e => {
             e.preventDefault(); const c = calc();
             if (!c.n) return alert('Agrega al menos una pieza.');
             if (c.sub < C.pedido_minimo) return alert('La compra mínima es de ' + M(C.pedido_minimo) + ' (sin envío).');
-            const v = vend || C.vendedores.find(x => x.id === (document.querySelector('input[name=vd]:checked') || {}).value);
-            if (!v) return alert('Elige con quién quieres hablar.');
             const fec = $('#fec').value; if (C.fechas_bloqueadas.includes(fec)) return alert('Ese día no entregamos. Elige otro, por favor.');
             if (tipo === 'dom' && !$('#dir').value) return alert('Escribe tu dirección.');
+            $('#f button[type=submit]').disabled = true;
+            const v = await elegir();
             const pint = sel('pi') === 'pintadas' ? 'Pintadas' : 'Sin pintar', piezas = c.it.map(f => cart[f.id] + ' ' + f.nombre).join(', ');
             const ent = tipo === 'punto' ? 'Punto: ' + $('#pto').value : 'Domicilio: ' + $('#zona').selectedOptions[0].text + ' - ' + $('#dir').value;
             const id = 'YSC-' + fec.slice(5).replace('-', '') + '-' + Math.floor(1000 + Math.random() * 9000);
             const env = c.env === null ? 'por confirmar' : M(c.env), caja = c.cj ? M(c.cj.precio) : 'por confirmar';
             const d = { id, vendedor: v.nombre, cliente: $('#nom').value, piezas, pintadas: pint, fecha: fec, entrega: ent, subtotal: c.sub, envio: env, caja, total: c.total, notas: $('#nt').value };
-            const txt = `Hola ${v.nombre}, soy ${d.cliente}.\nPedido ${id}\nPiezas: ${piezas}\n${pint}\nPara el: ${fec.split('-').reverse().join('/')}\nEntrega: ${ent}\nPiezas ${M(c.sub)} + envío ${env} + caja ${caja} = Total ${M(c.total)}\nNotas: ${d.notas || 'ninguna'}`;
+            const lista = c.it.map(f => `• ${f.nombre}: ${cart[f.id]} ${cart[f.id] === 1 ? 'pieza' : 'piezas'}`).join('\n');
+            const pend = (c.env === null || !c.cj) ? ' + lo que falta por confirmar' : '';
+            const txt = `Hola, soy ${d.cliente} \n*Pedido ${id}*\n\n*Piezas:*\n${lista}\n\n*Acabado:* ${pint}\n*Para el:* ${fec.split('-').reverse().join('/')}\n*Entrega:* ${ent}\n\n*Resumen*\nPiezas: ${M(c.sub)}\nEnvío: ${env}\nCaja: ${caja}\n*Total: ${M(c.total)}*${pend}\n\n*Notas:* ${d.notas || 'ninguna'}`;
             if (C.url_hoja) fetch(C.url_hoja, { method: 'POST', mode: 'no-cors', keepalive: true, body: JSON.stringify(d) }).catch(() => { });
             setTimeout(() => location.href = 'https://wa.me/' + v.telefono + '?text=' + encodeURIComponent(txt), 500)
         };

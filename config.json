@@ -2,20 +2,19 @@
     "vendedores": [
         {
             "id": "uno",
-            "nombre": "Ramón",
+            "nombre": "Linea 1",
             "telefono": "529512369987",
             "disponible": true
         },
         {
             "id": "dos",
-            "nombre": "Jessica",
+            "nombre": "Linea 2",
             "telefono": "529515858462",
             "disponible": true
         }
     ],
-    "asignacion_nuevos": "elegir",
     "pedido_minimo": 100,
-    "mayoreo_desde_piezas": 6,
+    "mayoreo_desde_piezas": 12,
     "dias_minimos": {
         "sin_pintar": 4,
         "pintada": 7
@@ -24,7 +23,7 @@
         "2026-12-24",
         "2026-12-25"
     ],
-    "envio_punto": 40,
+    "envio_punto": 50,
     "puntos_entrega": [
         "Entrada de San Isidro (vía corta)",
         "Ojo de Agua – Tepeyac (gasolinera)",
@@ -83,5 +82,5 @@
             "precio": 25
         }
     ],
-    "url_hoja": ""
+    "url_hoja": "https://script.google.com/macros/s/AKfycbw7qayhA-Z_lSfnmh82NyUMKfuTPsgjhSi5dg_vsJSsPolkypRr_rN71GOkxaz_w7AKSQ/exec"
 }
