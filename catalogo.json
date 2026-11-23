@@ -970,12 +970,12 @@
     },
     {
         "id": "alcancia-cascanueces-gigante",
-        "nombre": "Alcancia Cascanueses Gigante",
+        "nombre": "Alcancia Cascanueces Gigante",
         "medidas": "45 cm de alto · 27 cm ancho",
         "precio": 80,
         "precio_mayoreo": 60,
         "volumen": 4,
-        "imagen": "images/catalogo/alcancia-cascanueses-gigante.webp",
+        "imagen": "images/catalogo/alcancia-cascanueces-gigante.webp",
         "categoria": "Alcancias",
         "subcategoria": "",
         "etiquetas": [
@@ -984,12 +984,12 @@
     },
     {
         "id": "alcancia-cascanueses",
-        "nombre": "Alcancia Cascanueses",
+        "nombre": "Alcancia Cascanueces",
         "medidas": "26 cm de alto · 13.5 cm ancho",
         "precio": 22,
         "precio_mayoreo": 18,
         "volumen": 4,
-        "imagen": "images/catalogo/alcancia-cascanueses.webp",
+        "imagen": "images/catalogo/alcancia-cascanueces.webp",
         "categoria": "Alcancias",
         "subcategoria": "",
         "etiquetas": [
