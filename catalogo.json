@@ -9,7 +9,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-sofia.jpg",
+        "imagen": "images/catalogo/alcancia-sofia.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -21,7 +21,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-moana.jpg",
+        "imagen": "images/catalogo/alcancia-moana.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -33,7 +33,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-bella.jpg",
+        "imagen": "images/catalogo/alcancia-bella.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -45,7 +45,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-alicia.jpg",
+        "imagen": "images/catalogo/alcancia-alicia.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -57,7 +57,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-valiente-merida.jpg",
+        "imagen": "images/catalogo/alcancia-valiente-merida.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -69,7 +69,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-tinker-bell.jpg",
+        "imagen": "images/catalogo/alcancia-tinker-bell.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -81,7 +81,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-rapunzel.jpg",
+        "imagen": "images/catalogo/alcancia-rapunzel.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -93,7 +93,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-cenicienta.jpg",
+        "imagen": "images/catalogo/alcancia-cenicienta.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -105,7 +105,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-blanca-nieves.jpg",
+        "imagen": "images/catalogo/alcancia-blanca-nieves.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -117,7 +117,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-tiana.jpg",
+        "imagen": "images/catalogo/alcancia-tiana.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -129,7 +129,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-ana.jpg",
+        "imagen": "images/catalogo/alcancia-ana.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -141,7 +141,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-elsa.jpg",
+        "imagen": "images/catalogo/alcancia-elsa.webp",
         "categoria": "Alcancias",
         "subcategoria": "Princesas",
         "etiquetas": []
@@ -153,7 +153,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-toro.jpg",
+        "imagen": "images/catalogo/alcancia-toro.webp",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
         "etiquetas": []
@@ -165,7 +165,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-vaca.jpg",
+        "imagen": "images/catalogo/alcancia-vaca.webp",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
         "etiquetas": []
@@ -177,7 +177,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-sombrero.jpg",
+        "imagen": "images/catalogo/alcancia-sombrero.webp",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
         "etiquetas": []
@@ -189,7 +189,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-bota-1.jpg",
+        "imagen": "images/catalogo/alcancia-bota-1.webp",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
         "etiquetas": []
@@ -201,7 +201,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-bota-2.jpg",
+        "imagen": "images/catalogo/alcancia-bota-2.webp",
         "categoria": "Alcancias",
         "subcategoria": "Vaqueros",
         "etiquetas": []
@@ -213,7 +213,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-woody.jpg",
+        "imagen": "images/catalogo/alcancia-woody.webp",
         "categoria": "Alcancias",
         "subcategoria": "Toy Story",
         "etiquetas": []
@@ -225,7 +225,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-jessie.jpg",
+        "imagen": "images/catalogo/alcancia-jessie.webp",
         "categoria": "Alcancias",
         "subcategoria": "Toy Story",
         "etiquetas": []
@@ -237,7 +237,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-rex.jpg",
+        "imagen": "images/catalogo/alcancia-rex.webp",
         "categoria": "Alcancias",
         "subcategoria": "Toy Story",
         "etiquetas": []
@@ -249,7 +249,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-chase.jpg",
+        "imagen": "images/catalogo/alcancia-chase.webp",
         "categoria": "Alcancias",
         "subcategoria": "Paw Patrol",
         "etiquetas": []
@@ -261,7 +261,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-skye.jpg",
+        "imagen": "images/catalogo/alcancia-skye.webp",
         "categoria": "Alcancias",
         "subcategoria": "Paw Patrol",
         "etiquetas": []
@@ -273,7 +273,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-bob-esponja.jpg",
+        "imagen": "images/catalogo/alcancia-bob-esponja.webp",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
         "etiquetas": []
@@ -285,7 +285,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-patricio.jpg",
+        "imagen": "images/catalogo/alcancia-patricio.webp",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
         "etiquetas": []
@@ -297,7 +297,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-gary.jpg",
+        "imagen": "images/catalogo/alcancia-gary.webp",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
         "etiquetas": []
@@ -309,7 +309,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-skye.jpg",
+        "imagen": "images/catalogo/alcancia-skye.webp",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
         "etiquetas": []
@@ -321,7 +321,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-don-cangrejo.jpg",
+        "imagen": "images/catalogo/alcancia-don-cangrejo.webp",
         "categoria": "Alcancias",
         "subcategoria": "Bob Esponja",
         "etiquetas": []
@@ -333,7 +333,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-carl-fredricksen.jpg",
+        "imagen": "images/catalogo/alcancia-carl-fredricksen.webp",
         "categoria": "Alcancias",
         "subcategoria": "Up. una aventura de altura",
         "etiquetas": []
@@ -345,7 +345,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-ellie.jpg",
+        "imagen": "images/catalogo/alcancia-ellie.webp",
         "categoria": "Alcancias",
         "subcategoria": "Up. una aventura de altura",
         "etiquetas": []
@@ -357,7 +357,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-pebbles.jpg",
+        "imagen": "images/catalogo/alcancia-pebbles.webp",
         "categoria": "Alcancias",
         "subcategoria": "Los picapiedras",
         "etiquetas": []
@@ -369,7 +369,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-bam-bam.jpg",
+        "imagen": "images/catalogo/alcancia-bam-bam.webp",
         "categoria": "Alcancias",
         "subcategoria": "Los picapiedras",
         "etiquetas": []
@@ -381,7 +381,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-lady-bug.jpg",
+        "imagen": "images/catalogo/alcancia-lady-bug.webp",
         "categoria": "Alcancias",
         "subcategoria": "Miraculos",
         "etiquetas": []
@@ -393,7 +393,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-hercules.jpg",
+        "imagen": "images/catalogo/alcancia-hercules.webp",
         "categoria": "Alcancias",
         "subcategoria": "Hércules",
         "etiquetas": []
@@ -405,7 +405,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-pegaso.jpg",
+        "imagen": "images/catalogo/alcancia-pegaso.webp",
         "categoria": "Alcancias",
         "subcategoria": "Hércules",
         "etiquetas": []
@@ -417,7 +417,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-iron-man.jpg",
+        "imagen": "images/catalogo/alcancia-iron-man.webp",
         "categoria": "Alcancias",
         "subcategoria": "Super Heroes",
         "etiquetas": []
@@ -429,7 +429,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-spider-man.jpg",
+        "imagen": "images/catalogo/alcancia-spider-man.webp",
         "categoria": "Alcancias",
         "subcategoria": "Super Heroes",
         "etiquetas": []
@@ -441,7 +441,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-stich.jpg",
+        "imagen": "images/catalogo/alcancia-stich.webp",
         "categoria": "Alcancias",
         "subcategoria": "Lilo y Stich",
         "etiquetas": []
@@ -453,7 +453,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-lilo.jpg",
+        "imagen": "images/catalogo/alcancia-lilo.webp",
         "categoria": "Alcancias",
         "subcategoria": "Lilo y Stich",
         "etiquetas": []
@@ -465,7 +465,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-winnie.jpg",
+        "imagen": "images/catalogo/alcancia-winnie.webp",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
         "etiquetas": []
@@ -477,7 +477,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-igor.jpg",
+        "imagen": "images/catalogo/alcancia-igor.webp",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
         "etiquetas": []
@@ -489,7 +489,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-tigger.jpg",
+        "imagen": "images/catalogo/alcancia-tigger.webp",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
         "etiquetas": []
@@ -501,7 +501,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-puerquito.jpg",
+        "imagen": "images/catalogo/alcancia-puerquito.webp",
         "categoria": "Alcancias",
         "subcategoria": "Winnie pooh",
         "etiquetas": []
@@ -513,7 +513,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-dino-largo.jpg",
+        "imagen": "images/catalogo/alcancia-dino-largo.webp",
         "categoria": "Alcancias",
         "subcategoria": "Dinosaurios",
         "etiquetas": []
@@ -525,7 +525,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-triceraptos.jpg",
+        "imagen": "images/catalogo/alcancia-triceraptos.webp",
         "categoria": "Alcancias",
         "subcategoria": "Dinosaurios",
         "etiquetas": []
@@ -537,7 +537,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-yoshi.jpg",
+        "imagen": "images/catalogo/alcancia-yoshi.webp",
         "categoria": "Alcancias",
         "subcategoria": "Dinosaurios",
         "etiquetas": []
@@ -549,7 +549,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-leoncito.jpg",
+        "imagen": "images/catalogo/alcancia-leoncito.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -561,7 +561,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-yoshi.jpg",
+        "imagen": "images/catalogo/alcancia-yoshi.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -573,7 +573,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-caballo.jpg",
+        "imagen": "images/catalogo/alcancia-caballo.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -585,7 +585,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-zebra.jpg",
+        "imagen": "images/catalogo/alcancia-zebra.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -597,7 +597,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-hipopotamo.jpg",
+        "imagen": "images/catalogo/alcancia-hipopotamo.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -609,7 +609,7 @@
         "precio": 17,
         "precio_mayoreo": 14,
         "volumen": 2,
-        "imagen": "images/alcancia-monito.jpg",
+        "imagen": "images/catalogo/alcancia-monito.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -621,7 +621,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-jorge-el-curioso.jpg",
+        "imagen": "images/catalogo/alcancia-jorge-el-curioso.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -633,7 +633,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-elefantito.jpg",
+        "imagen": "images/catalogo/alcancia-elefantito.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -645,7 +645,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-leoncito-sol.jpg",
+        "imagen": "images/catalogo/alcancia-leoncito-sol.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -657,7 +657,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-zorrito.jpg",
+        "imagen": "images/catalogo/alcancia-zorrito.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -669,7 +669,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-pato-pato.jpg",
+        "imagen": "images/catalogo/alcancia-pato-pato.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -681,7 +681,7 @@
         "precio": 45,
         "precio_mayoreo": 40,
         "volumen": 2,
-        "imagen": "images/alcancia-pato-gigante.jpg",
+        "imagen": "images/catalogo/alcancia-pato-gigante.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -693,7 +693,7 @@
         "precio": 22,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/alcancia-oveja.jpg",
+        "imagen": "images/catalogo/alcancia-oveja.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -705,7 +705,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-cochinito-narizon.jpg",
+        "imagen": "images/catalogo/alcancia-cochinito-narizon.webp",
         "categoria": "Alcancias",
         "subcategoria": "Cerditos",
         "etiquetas": []
@@ -717,7 +717,7 @@
         "precio": 24,
         "precio_mayoreo": 22,
         "volumen": 2,
-        "imagen": "images/alcancia-cochino.jpg",
+        "imagen": "images/catalogo/alcancia-cochino.webp",
         "categoria": "Alcancias",
         "subcategoria": "Cerditos",
         "etiquetas": []
@@ -729,7 +729,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-charlie.jpg",
+        "imagen": "images/catalogo/alcancia-charlie.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": []
@@ -741,7 +741,7 @@
         "precio": 22,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/alcancia-snoopy-grande.jpg",
+        "imagen": "images/catalogo/alcancia-snoopy-grande.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": []
@@ -753,7 +753,7 @@
         "precio": 22,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/alcancia-casita-snoopy.jpg",
+        "imagen": "images/catalogo/alcancia-casita-snoopy.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": []
@@ -765,7 +765,7 @@
         "precio": 20,
         "precio_mayoreo": 14,
         "volumen": 2,
-        "imagen": "images/alcancia-snoopy-pequeño.jpg",
+        "imagen": "images/catalogo/alcancia-snoopy-pequeño.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": []
@@ -777,7 +777,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-woodstock.jpg",
+        "imagen": "images/catalogo/alcancia-woodstock.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": []
@@ -789,7 +789,7 @@
         "precio": 22,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-snoopy-gorro.jpg",
+        "imagen": "images/catalogo/alcancia-snoopy-gorro.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": [
@@ -803,7 +803,7 @@
         "precio": 22,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-charlie-gorro.jpg",
+        "imagen": "images/catalogo/alcancia-charlie-gorro.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": [
@@ -817,7 +817,7 @@
         "precio": 22,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-lucy-gorro.jpg",
+        "imagen": "images/catalogo/alcancia-lucy-gorro.webp",
         "categoria": "Alcancias",
         "subcategoria": "Snoopy",
         "etiquetas": [
@@ -831,7 +831,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-plim-plim.jpg",
+        "imagen": "images/catalogo/alcancia-plim-plim.webp",
         "categoria": "Alcancias",
         "subcategoria": "Plim Plim",
         "etiquetas": []
@@ -843,7 +843,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-abejita-chiquitita.jpg",
+        "imagen": "images/catalogo/alcancia-abejita-chiquitita.webp",
         "categoria": "Alcancias",
         "subcategoria": "Plim Plim",
         "etiquetas": []
@@ -855,7 +855,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-bluey.jpg",
+        "imagen": "images/catalogo/alcancia-bluey.webp",
         "categoria": "Alcancias",
         "subcategoria": "Bluey",
         "etiquetas": []
@@ -867,7 +867,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-bingo.jpg",
+        "imagen": "images/catalogo/alcancia-bingo.webp",
         "categoria": "Alcancias",
         "subcategoria": "Bluey",
         "etiquetas": []
@@ -879,7 +879,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-rana.jpg",
+        "imagen": "images/catalogo/alcancia-rana.webp",
         "categoria": "Alcancias",
         "subcategoria": "Ranas",
         "etiquetas": []
@@ -891,7 +891,7 @@
         "precio": 80,
         "precio_mayoreo": 70,
         "volumen": 4,
-        "imagen": "images/alcancia-perro.jpg",
+        "imagen": "images/catalogo/alcancia-perro.webp",
         "categoria": "Alcancias",
         "subcategoria": "Perros",
         "etiquetas": []
@@ -903,7 +903,7 @@
         "precio": 22,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/alcancia-mama-coneja.jpg",
+        "imagen": "images/catalogo/alcancia-mama-coneja.webp",
         "categoria": "Alcancias",
         "subcategoria": "Conejos",
         "etiquetas": []
@@ -915,7 +915,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-osita.jpg",
+        "imagen": "images/catalogo/alcancia-osita.webp",
         "categoria": "Alcancias",
         "subcategoria": "Ositos",
         "etiquetas": []
@@ -927,7 +927,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-teddy.jpg",
+        "imagen": "images/catalogo/alcancia-teddy.webp",
         "categoria": "Alcancias",
         "subcategoria": "Ositos",
         "etiquetas": []
@@ -939,7 +939,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-oso-geometrico.jpg",
+        "imagen": "images/catalogo/alcancia-oso-geometrico.webp",
         "categoria": "Alcancias",
         "subcategoria": "Ositos",
         "etiquetas": []
@@ -951,7 +951,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-buho-graduacion-1.jpg",
+        "imagen": "images/catalogo/alcancia-buho-graduacion-1.webp",
         "categoria": "Alcancias",
         "subcategoria": "Graduacion",
         "etiquetas": []
@@ -963,7 +963,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-buho-graduacion-2.jpg",
+        "imagen": "images/catalogo/alcancia-buho-graduacion-2.webp",
         "categoria": "Alcancias",
         "subcategoria": "Graduacion",
         "etiquetas": []
@@ -975,7 +975,7 @@
         "precio": 80,
         "precio_mayoreo": 60,
         "volumen": 4,
-        "imagen": "images/alcancia-cascanueses-gigante.jpg",
+        "imagen": "images/catalogo/alcancia-cascanueses-gigante.webp",
         "categoria": "Alcancias",
         "subcategoria": "",
         "etiquetas": [
@@ -989,7 +989,7 @@
         "precio": 22,
         "precio_mayoreo": 18,
         "volumen": 4,
-        "imagen": "images/alcancia-cascanueses.jpg",
+        "imagen": "images/catalogo/alcancia-cascanueses.webp",
         "categoria": "Alcancias",
         "subcategoria": "",
         "etiquetas": [
@@ -1003,7 +1003,7 @@
         "precio": 22,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/alcancia-santa.jpg",
+        "imagen": "images/catalogo/alcancia-santa.webp",
         "categoria": "Alcancias",
         "subcategoria": "",
         "etiquetas": [
@@ -1017,7 +1017,7 @@
         "precio": 20,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-minnie.jpg",
+        "imagen": "images/catalogo/alcancia-minnie.webp",
         "categoria": "Alcancias",
         "subcategoria": "Micky Mouse",
         "etiquetas": [
@@ -1031,7 +1031,7 @@
         "precio": 20,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-micky.jpg",
+        "imagen": "images/catalogo/alcancia-micky.webp",
         "categoria": "Alcancias",
         "subcategoria": "Micky Mouse",
         "etiquetas": [
@@ -1045,7 +1045,7 @@
         "precio": 20,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alcancia-goofy.jpg",
+        "imagen": "images/catalogo/alcancia-goofy.webp",
         "categoria": "Alcancias",
         "subcategoria": "Micky Mouse",
         "etiquetas": [
@@ -1062,7 +1062,7 @@
         "precio": 20,
         "precio_mayoreo": 15,
         "volumen": 4,
-        "imagen": "images/porta-maceta-pino.jpg",
+        "imagen": "images/catalogo/porta-maceta-pino.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": [
@@ -1076,7 +1076,7 @@
         "precio": 20,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/porta-maceta-reno.jpg",
+        "imagen": "images/catalogo/porta-maceta-reno.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": [
@@ -1090,7 +1090,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/porta-maceta-rectangular.jpg",
+        "imagen": "images/catalogo/porta-maceta-rectangular.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1102,7 +1102,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/porta-maceta-grabado-mariposa.jpg",
+        "imagen": "images/catalogo/porta-maceta-grabado-mariposa.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1114,7 +1114,7 @@
         "precio": 15,
         "precio_mayoreo": 13,
         "volumen": 2,
-        "imagen": "images/porta-maceta-circular.jpg",
+        "imagen": "images/catalogo/porta-maceta-circular.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1126,7 +1126,7 @@
         "precio": 5,
         "precio_mayoreo": 4,
         "volumen": 2,
-        "imagen": "images/porta-maceta-tronco.jpg",
+        "imagen": "images/catalogo/porta-maceta-tronco.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1138,7 +1138,7 @@
         "precio": 7,
         "precio_mayoreo": 6,
         "volumen": 2,
-        "imagen": "images/porta-maceta-circular-pequeña.jpg",
+        "imagen": "images/catalogo/porta-maceta-circular-pequeña.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1150,7 +1150,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/porta-maceta-curvas.jpg",
+        "imagen": "images/catalogo/porta-maceta-curvas.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1162,7 +1162,7 @@
         "precio": 12,
         "precio_mayoreo": 13,
         "volumen": 2,
-        "imagen": "images/porta-maceta-nube.jpg",
+        "imagen": "images/catalogo/porta-maceta-nube.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1174,7 +1174,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 2,
-        "imagen": "images/porta-maceta-ovalada-mediana.jpg",
+        "imagen": "images/catalogo/porta-maceta-ovalada-mediana.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1186,7 +1186,7 @@
         "precio": 16,
         "precio_mayoreo": 14,
         "volumen": 2,
-        "imagen": "images/porta-plato-corazon-alas.jpg",
+        "imagen": "images/catalogo/porta-plato-corazon-alas.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1198,7 +1198,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 2,
-        "imagen": "images/porta-maceta-grabado-de-hoja.jpg",
+        "imagen": "images/catalogo/porta-maceta-grabado-de-hoja.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1210,7 +1210,7 @@
         "precio": 16,
         "precio_mayoreo": 14,
         "volumen": 2,
-        "imagen": "images/plato-otoño-hoja.jpg",
+        "imagen": "images/catalogo/plato-otoño-hoja.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1222,7 +1222,7 @@
         "precio": 14,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/plato-hoja.jpg",
+        "imagen": "images/catalogo/plato-hoja.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1234,7 +1234,7 @@
         "precio": 6,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/porta-maceta-ovalada-pequeña.jpg",
+        "imagen": "images/catalogo/porta-maceta-ovalada-pequeña.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1246,7 +1246,7 @@
         "precio": 6,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/porta-maceta-hexagono.jpg",
+        "imagen": "images/catalogo/porta-maceta-hexagono.webp",
         "categoria": "Platos",
         "subcategoria": "",
         "etiquetas": []
@@ -1261,7 +1261,7 @@
         "precio": 23,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/alajero-carrusel.jpg",
+        "imagen": "images/catalogo/alajero-carrusel.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1273,7 +1273,7 @@
         "precio": 23,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/alajero-rosas.jpg",
+        "imagen": "images/catalogo/alajero-rosas.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1285,7 +1285,7 @@
         "precio": 18,
         "precio_mayoreo": 15,
         "volumen": 1,
-        "imagen": "images/alajero-rana.jpg",
+        "imagen": "images/catalogo/alajero-rana.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1297,7 +1297,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 1,
-        "imagen": "images/alajero-mielero-con-tapa.jpg",
+        "imagen": "images/catalogo/alajero-mielero-con-tapa.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1309,7 +1309,7 @@
         "precio": 18,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alajero-tetera.jpg",
+        "imagen": "images/catalogo/alajero-tetera.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1321,7 +1321,7 @@
         "precio": 19,
         "precio_mayoreo": 17,
         "volumen": 1,
-        "imagen": "images/alajero-gallina.jpg",
+        "imagen": "images/catalogo/alajero-gallina.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1333,7 +1333,7 @@
         "precio": 23,
         "precio_mayoreo": 21,
         "volumen": 2,
-        "imagen": "images/alajero-casa-de-hongo.jpg",
+        "imagen": "images/catalogo/alajero-casa-de-hongo.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1345,7 +1345,7 @@
         "precio": 22,
         "precio_mayoreo": 20,
         "volumen": 1,
-        "imagen": "images/alajero-bellota.jpg",
+        "imagen": "images/catalogo/alajero-bellota.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1357,7 +1357,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 2,
-        "imagen": "images/alajero-corazon.jpg",
+        "imagen": "images/catalogo/alajero-corazon.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1369,7 +1369,7 @@
         "precio": 11,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/alajero-ollita.jpg",
+        "imagen": "images/catalogo/alajero-ollita.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": []
@@ -1381,7 +1381,7 @@
         "precio": 30,
         "precio_mayoreo": 25,
         "volumen": 2,
-        "imagen": "images/alajero-pino-grande.jpg",
+        "imagen": "images/catalogo/alajero-pino-grande.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": [
@@ -1395,7 +1395,7 @@
         "precio": 25,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/alajero-pino-mediano.jpg",
+        "imagen": "images/catalogo/alajero-pino-mediano.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": [
@@ -1409,7 +1409,7 @@
         "precio": 30,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/alajero-osito.jpg",
+        "imagen": "images/catalogo/alajero-osito.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": [
@@ -1423,7 +1423,7 @@
         "precio": 20,
         "precio_mayoreo": 10,
         "volumen": 2,
-        "imagen": "images/alajero-esfera-navideña.jpg",
+        "imagen": "images/catalogo/alajero-esfera-navideña.webp",
         "categoria": "Alajeros",
         "subcategoria": "",
         "etiquetas": [
@@ -1440,7 +1440,7 @@
         "precio": 40,
         "precio_mayoreo": 35,
         "volumen": 2,
-        "imagen": "images/sonadora-1.jpg",
+        "imagen": "images/catalogo/sonadora-1.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1452,7 +1452,7 @@
         "precio": 40,
         "precio_mayoreo": 35,
         "volumen": 2,
-        "imagen": "images/sonadora-2.jpg",
+        "imagen": "images/catalogo/sonadora-2.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1464,7 +1464,7 @@
         "precio": 40,
         "precio_mayoreo": 35,
         "volumen": 2,
-        "imagen": "images/nina-1.jpg",
+        "imagen": "images/catalogo/nina-1.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1476,7 +1476,7 @@
         "precio": 40,
         "precio_mayoreo": 35,
         "volumen": 2,
-        "imagen": "images/nina-2.jpg",
+        "imagen": "images/catalogo/nina-2.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1488,7 +1488,7 @@
         "precio": 22,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/nina-6.jpg",
+        "imagen": "images/catalogo/nina-6.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1500,7 +1500,7 @@
         "precio": 14,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-niña-con-trenza.jpg",
+        "imagen": "images/catalogo/maceta-niña-con-trenza.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1512,7 +1512,7 @@
         "precio": 14,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-niña-con-manzana.jpg",
+        "imagen": "images/catalogo/maceta-niña-con-manzana.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1524,7 +1524,7 @@
         "precio": 13,
         "precio_mayoreo": 11,
         "volumen": 1,
-        "imagen": "images/maceta-niña-lacia.jpg",
+        "imagen": "images/catalogo/maceta-niña-lacia.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1536,7 +1536,7 @@
         "precio": 40,
         "precio_mayoreo": 35,
         "volumen": 2,
-        "imagen": "images/mujer-1.jpg",
+        "imagen": "images/catalogo/mujer-1.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1548,7 +1548,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/mujer-2.jpg",
+        "imagen": "images/catalogo/mujer-2.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1560,7 +1560,7 @@
         "precio": 20,
         "precio_mayoreo": 18,
         "volumen": 2,
-        "imagen": "images/mujer-3.jpg",
+        "imagen": "images/catalogo/mujer-3.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1572,7 +1572,7 @@
         "precio": 25,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/mujer-4.jpg",
+        "imagen": "images/catalogo/mujer-4.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1584,7 +1584,7 @@
         "precio": 16,
         "precio_mayoreo": 14,
         "volumen": 1,
-        "imagen": "images/maceta-mujer.jpg",
+        "imagen": "images/catalogo/maceta-mujer.webp",
         "categoria": "Macetas",
         "subcategoria": "Mujeres",
         "etiquetas": []
@@ -1596,7 +1596,7 @@
         "precio": 15,
         "precio_mayoreo": 13,
         "volumen": 1,
-        "imagen": "images/maceta-niño-con-corbata.jpg",
+        "imagen": "images/catalogo/maceta-niño-con-corbata.webp",
         "categoria": "Macetas",
         "subcategoria": "Hombres",
         "etiquetas": []
@@ -1608,7 +1608,7 @@
         "precio": 30,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/trenesito-maceta.jpg",
+        "imagen": "images/catalogo/trenesito-maceta.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": [
@@ -1622,7 +1622,7 @@
         "precio": 16,
         "precio_mayoreo": 15,
         "volumen": 1,
-        "imagen": "images/maceta-vaca.jpg",
+        "imagen": "images/catalogo/maceta-vaca.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1634,7 +1634,7 @@
         "precio": 16,
         "precio_mayoreo": 15,
         "volumen": 1,
-        "imagen": "images/maceta-toro.jpg",
+        "imagen": "images/catalogo/maceta-toro.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1646,7 +1646,7 @@
         "precio": 16,
         "precio_mayoreo": 15,
         "volumen": 1,
-        "imagen": "images/maceta-erizo-en-tronco.jpg",
+        "imagen": "images/catalogo/maceta-erizo-en-tronco.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1658,7 +1658,7 @@
         "precio": 30,
         "precio_mayoreo": 25,
         "volumen": 2,
-        "imagen": "images/maceta-dinosaurio.jpg",
+        "imagen": "images/catalogo/maceta-dinosaurio.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1670,7 +1670,7 @@
         "precio": 15,
         "precio_mayoreo": 17,
         "volumen": 1,
-        "imagen": "images/maceta-gato-con-canasta.jpg",
+        "imagen": "images/catalogo/maceta-gato-con-canasta.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1682,7 +1682,7 @@
         "precio": 10,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-mini-conejo.jpg",
+        "imagen": "images/catalogo/maceta-mini-conejo.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1694,7 +1694,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/maceta-panda-con-canasta.jpg",
+        "imagen": "images/catalogo/maceta-panda-con-canasta.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1706,7 +1706,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/maceta-rana-con-canasta.jpg",
+        "imagen": "images/catalogo/maceta-rana-con-canasta.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1718,7 +1718,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 1,
-        "imagen": "images/maceta-mama-elefante.jpg",
+        "imagen": "images/catalogo/maceta-mama-elefante.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1730,7 +1730,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-erizo.jpg",
+        "imagen": "images/catalogo/maceta-erizo.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1742,7 +1742,7 @@
         "precio": 18,
         "precio_mayoreo": 16,
         "volumen": 1,
-        "imagen": "images/maceta-ballena.jpg",
+        "imagen": "images/catalogo/maceta-ballena.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1754,7 +1754,7 @@
         "precio": 16,
         "precio_mayoreo": 14,
         "volumen": 1,
-        "imagen": "images/maceta-elefante.jpg",
+        "imagen": "images/catalogo/maceta-elefante.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1766,7 +1766,7 @@
         "precio": 15,
         "precio_mayoreo": 13,
         "volumen": 1,
-        "imagen": "images/maceta-tortuga.jpg",
+        "imagen": "images/catalogo/maceta-tortuga.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1778,7 +1778,7 @@
         "precio": 15,
         "precio_mayoreo": 13,
         "volumen": 1,
-        "imagen": "images/maceta-capibara.jpg",
+        "imagen": "images/catalogo/maceta-capibara.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1790,7 +1790,7 @@
         "precio": 15,
         "precio_mayoreo": 13,
         "volumen": 1,
-        "imagen": "images/maceta-gato-con-liston.jpg",
+        "imagen": "images/catalogo/maceta-gato-con-liston.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1802,7 +1802,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-oveja.jpg",
+        "imagen": "images/catalogo/maceta-oveja.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1814,7 +1814,7 @@
         "precio": 9,
         "precio_mayoreo": 8,
         "volumen": 1,
-        "imagen": "images/maceta-gato-pequeño.jpg",
+        "imagen": "images/catalogo/maceta-gato-pequeño.webp",
         "categoria": "Macetas",
         "subcategoria": "",
         "etiquetas": []
@@ -1826,7 +1826,7 @@
         "precio": 13,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-jarron.jpg",
+        "imagen": "images/catalogo/maceta-jarron.webp",
         "categoria": "Macetas",
         "subcategoria": "Jarrones y Tazas",
         "etiquetas": []
@@ -1838,7 +1838,7 @@
         "precio": 13,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-corazon-anatomico.jpg",
+        "imagen": "images/catalogo/maceta-corazon-anatomico.webp",
         "categoria": "Macetas",
         "subcategoria": "Jarrones y Tazas",
         "etiquetas": []
@@ -1850,7 +1850,7 @@
         "precio": 15,
         "precio_mayoreo": 13,
         "volumen": 1,
-        "imagen": "images/maceta-taza-plato.jpg",
+        "imagen": "images/catalogo/maceta-taza-plato.webp",
         "categoria": "Macetas",
         "subcategoria": "Jarrones y Tazas",
         "etiquetas": []
@@ -1862,7 +1862,7 @@
         "precio": 14,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-mar.jpg",
+        "imagen": "images/catalogo/maceta-mar.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1874,7 +1874,7 @@
         "precio": 12,
         "precio_mayoreo": 11,
         "volumen": 1,
-        "imagen": "images/maceta-huella.jpg",
+        "imagen": "images/catalogo/maceta-huella.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1886,7 +1886,7 @@
         "precio": 13,
         "precio_mayoreo": 12,
         "volumen": 2,
-        "imagen": "images/maceta-luna.jpg",
+        "imagen": "images/catalogo/maceta-luna.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1898,7 +1898,7 @@
         "precio": 6,
         "precio_mayoreo": 4,
         "volumen": 1,
-        "imagen": "images/maceta-mini-corazoncito.jpg",
+        "imagen": "images/catalogo/maceta-mini-corazoncito.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1910,7 +1910,7 @@
         "precio": 16,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/maceta-barco.jpg",
+        "imagen": "images/catalogo/maceta-barco.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1922,7 +1922,7 @@
         "precio": 13,
         "precio_mayoreo": 11,
         "volumen": 1,
-        "imagen": "images/maceta-hongo.jpg",
+        "imagen": "images/catalogo/maceta-hongo.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1934,7 +1934,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-taza.jpg",
+        "imagen": "images/catalogo/maceta-taza.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1946,7 +1946,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-cono.jpg",
+        "imagen": "images/catalogo/maceta-cono.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1958,7 +1958,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-canasta-grande.jpg",
+        "imagen": "images/catalogo/maceta-canasta-grande.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1970,7 +1970,7 @@
         "precio": 12,
         "precio_mayoreo": 11,
         "volumen": 1,
-        "imagen": "images/maceta-concha-de-mar.jpg",
+        "imagen": "images/catalogo/maceta-concha-de-mar.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1982,7 +1982,7 @@
         "precio": 11,
         "precio_mayoreo": 9,
         "volumen": 1,
-        "imagen": "images/maceta-canasta-mediana.jpg",
+        "imagen": "images/catalogo/maceta-canasta-mediana.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -1994,7 +1994,7 @@
         "precio": 4,
         "precio_mayoreo": 3,
         "volumen": 1,
-        "imagen": "images/maceta-canasta-pequeña.jpg",
+        "imagen": "images/catalogo/maceta-canasta-pequeña.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2006,7 +2006,7 @@
         "precio": 12,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-bellota.jpg",
+        "imagen": "images/catalogo/maceta-bellota.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2018,7 +2018,7 @@
         "precio": 13,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-mielero.jpg",
+        "imagen": "images/catalogo/maceta-mielero.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2030,7 +2030,7 @@
         "precio": 16,
         "precio_mayoreo": 14,
         "volumen": 1,
-        "imagen": "images/maceta-cilindro-xl.jpg",
+        "imagen": "images/catalogo/maceta-cilindro-xl.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2042,7 +2042,7 @@
         "precio": 16,
         "precio_mayoreo": 14,
         "volumen": 1,
-        "imagen": "images/maceta-cuadrada-xl.jpg",
+        "imagen": "images/catalogo/maceta-cuadrada-xl.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2054,7 +2054,7 @@
         "precio": 16,
         "precio_mayoreo": 13,
         "volumen": 1,
-        "imagen": "images/maceta-loto.jpg",
+        "imagen": "images/catalogo/maceta-loto.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2066,7 +2066,7 @@
         "precio": 12,
         "precio_mayoreo": 11,
         "volumen": 1,
-        "imagen": "images/maceta-casa-de-hongo.jpg",
+        "imagen": "images/catalogo/maceta-casa-de-hongo.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2078,7 +2078,7 @@
         "precio": 15,
         "precio_mayoreo": 14,
         "volumen": 1,
-        "imagen": "images/maceta-copo.jpg",
+        "imagen": "images/catalogo/maceta-copo.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2090,7 +2090,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-hexagono-grande.jpg",
+        "imagen": "images/catalogo/maceta-hexagono-grande.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2102,7 +2102,7 @@
         "precio": 7,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-hexagono-pequeña.jpg",
+        "imagen": "images/catalogo/maceta-hexagono-pequeña.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2114,7 +2114,7 @@
         "precio": 14,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-tazon-rayas-xl.jpg",
+        "imagen": "images/catalogo/maceta-tazon-rayas-xl.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2126,7 +2126,7 @@
         "precio": 6,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-tazon-rayas-xs.jpg",
+        "imagen": "images/catalogo/maceta-tazon-rayas-xs.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2138,7 +2138,7 @@
         "precio": 14,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-tazon-xl.jpg",
+        "imagen": "images/catalogo/maceta-tazon-xl.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2150,7 +2150,7 @@
         "precio": 6,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-tazon-pequeño.jpg",
+        "imagen": "images/catalogo/maceta-tazon-pequeño.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2162,7 +2162,7 @@
         "precio": 6,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-tazon-xs.jpg",
+        "imagen": "images/catalogo/maceta-tazon-xs.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2174,7 +2174,7 @@
         "precio": 14,
         "precio_mayoreo": 12,
         "volumen": 1,
-        "imagen": "images/maceta-huevo-partido.jpg",
+        "imagen": "images/catalogo/maceta-huevo-partido.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2186,7 +2186,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-lineas.jpg",
+        "imagen": "images/catalogo/maceta-lineas.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2198,7 +2198,7 @@
         "precio": 11,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-tronco-pequeño.jpg",
+        "imagen": "images/catalogo/maceta-tronco-pequeño.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2210,7 +2210,7 @@
         "precio": 11,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-sueter.jpg",
+        "imagen": "images/catalogo/maceta-sueter.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2222,7 +2222,7 @@
         "precio": 13,
         "precio_mayoreo": 11,
         "volumen": 1,
-        "imagen": "images/maceta-cuadrada.jpg",
+        "imagen": "images/catalogo/maceta-cuadrada.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2234,7 +2234,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-cilindro.jpg",
+        "imagen": "images/catalogo/maceta-cilindro.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2246,7 +2246,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-corazon-mediano.jpg",
+        "imagen": "images/catalogo/maceta-corazon-mediano.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2258,7 +2258,7 @@
         "precio": 12,
         "precio_mayoreo": 10,
         "volumen": 1,
-        "imagen": "images/maceta-olla.jpg",
+        "imagen": "images/catalogo/maceta-olla.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2270,7 +2270,7 @@
         "precio": 13,
         "precio_mayoreo": 11,
         "volumen": 1,
-        "imagen": "images/maceta-rectangular.jpg",
+        "imagen": "images/catalogo/maceta-rectangular.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2282,7 +2282,7 @@
         "precio": 7,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-ollita-de-flores.jpg",
+        "imagen": "images/catalogo/maceta-ollita-de-flores.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2294,7 +2294,7 @@
         "precio": 7,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-hexagonal.jpg",
+        "imagen": "images/catalogo/maceta-hexagonal.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2306,7 +2306,7 @@
         "precio": 7,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-cilindro-pequeño.jpg",
+        "imagen": "images/catalogo/maceta-cilindro-pequeño.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2318,7 +2318,7 @@
         "precio": 7,
         "precio_mayoreo": 5,
         "volumen": 1,
-        "imagen": "images/maceta-corazon-ss.jpg",
+        "imagen": "images/catalogo/maceta-corazon-ss.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Diversas",
         "etiquetas": []
@@ -2330,7 +2330,7 @@
         "precio": 25,
         "precio_mayoreo": 22,
         "volumen": 2,
-        "imagen": "images/maceta-manos.jpg",
+        "imagen": "images/catalogo/maceta-manos.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Grandes",
         "etiquetas": []
@@ -2342,7 +2342,7 @@
         "precio": 23,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/maceta-grande-hexagonal.jpg",
+        "imagen": "images/catalogo/maceta-grande-hexagonal.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Grandes",
         "etiquetas": []
@@ -2354,7 +2354,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/maceta-rombo.jpg",
+        "imagen": "images/catalogo/maceta-rombo.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Grandes",
         "etiquetas": []
@@ -2366,7 +2366,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/maceta-hexagono-pequeño.jpg",
+        "imagen": "images/catalogo/maceta-hexagono-pequeño.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Grandes",
         "etiquetas": []
@@ -2378,7 +2378,7 @@
         "precio": 23,
         "precio_mayoreo": 20,
         "volumen": 2,
-        "imagen": "images/maceta-grande-circular.jpg",
+        "imagen": "images/catalogo/maceta-grande-circular.webp",
         "categoria": "Macetas",
         "subcategoria": "Figuras Grandes",
         "etiquetas": []
@@ -2393,7 +2393,7 @@
         "precio": 20,
         "precio_mayoreo": 10,
         "volumen": 2,
-        "imagen": "images/santa-porta-lapiz.jpg",
+        "imagen": "images/catalogo/santa-porta-lapiz.webp",
         "categoria": "Figuras diversas",
         "subcategoria": "",
         "etiquetas": [
@@ -2407,7 +2407,7 @@
         "precio": 20,
         "precio_mayoreo": 10,
         "volumen": 2,
-        "imagen": "images/placa-santa.jpg",
+        "imagen": "images/catalogo/placa-santa.webp",
         "categoria": "Figuras diversas",
         "subcategoria": "",
         "etiquetas": [
@@ -2421,7 +2421,7 @@
         "precio": 20,
         "precio_mayoreo": 10,
         "volumen": 2,
-        "imagen": "images/placa-pino.jpg",
+        "imagen": "images/catalogo/placa-pino.webp",
         "categoria": "Figuras diversas",
         "subcategoria": "",
         "etiquetas": [
