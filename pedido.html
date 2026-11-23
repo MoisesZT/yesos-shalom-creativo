@@ -268,6 +268,37 @@
             padding: .3rem 1rem
         }
 
+        .im img {
+            cursor: zoom-in
+        }
+
+        #zoom {
+            position: fixed;
+            inset: 0;
+            z-index: 50;
+            background: rgba(0, 0, 0, .88);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem
+        }
+
+        #zoom img {
+            max-width: 100%;
+            max-height: 72vh;
+            border-radius: 14px;
+            background: #fff
+        }
+
+        #zoom p {
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 700;
+            text-align: center
+        }
+
         [hidden] {
             display: none !important
         }
@@ -319,6 +350,11 @@
     </main>
     <div id="barra"><span id="res">Aún no hay piezas</span><a class="b" href="#f">Terminar mi pedido</a>
     </div>
+    <div id="zoom" hidden>
+        <img id="zoom-img" src="" alt="">
+        <p id="zoom-nombre"></p>
+        <button type="button">Cerrar ✕</button>
+    </div>
     <script>
         const $ = s => document.querySelector(s), M = n => '$' + n, sel = n => document.querySelector('input[name=' + n + ']:checked').value;
         let C, F, cart = {}, vend = null, tipo = 'punto', cat = '', sub = '', lim = 12;
@@ -365,6 +401,14 @@
         $('#subfiltros').onclick = e => { const b = e.target.closest('button[data-s]'); if (!b) return; sub = b.dataset.s === 'Todas' ? '' : b.dataset.s; lim = 12; filtros(); pinta() };
         $('#mas').onclick = () => { lim += 12; pinta() };
         $('#lista').onclick = e => { const b = e.target.closest('button[data-d]'); if (!b) return; const id = b.parentNode.dataset.id; cart[id] = (cart[id] || 0) + +b.dataset.d; if (cart[id] < 1) delete cart[id]; pinta(); calc2() };
+        $('#lista').addEventListener('click', e => {
+            const im = e.target.closest('.im img'); if (!im) return;
+            $('#zoom-img').src = im.src; $('#zoom-img').alt = im.alt;
+            $('#zoom-nombre').textContent = im.alt; $('#zoom').hidden = false;
+        });
+        const cierra = () => { $('#zoom').hidden = true };
+        $('#zoom').onclick = cierra;
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') cierra() });
         function calc() {
             const it = F.filter(f => cart[f.id]), n = it.reduce((a, f) => a + cart[f.id], 0), may = n >= C.mayoreo_desde_piezas;
             const sub = it.reduce((a, f) => a + cart[f.id] * (may && f.precio_mayoreo ? f.precio_mayoreo : f.precio), 0);
