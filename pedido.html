@@ -299,6 +299,21 @@
             text-align: center
         }
 
+        #zoom .q {
+            width: min(320px, 100%);
+            margin: 0;
+            padding: 0
+        }
+
+        #zoom .q>b {
+            color: #fff
+        }
+
+        #zoom .cerrar {
+            background: #fff;
+            color: var(--tinta)
+        }
+
         [hidden] {
             display: none !important
         }
@@ -353,7 +368,8 @@
     <div id="zoom" hidden>
         <img id="zoom-img" src="" alt="">
         <p id="zoom-nombre"></p>
-        <button type="button">Cerrar ✕</button>
+        <div id="zoom-q" class="q"></div>
+        <button type="button" class="cerrar">Cerrar ✕</button>
     </div>
     <script>
         const $ = s => document.querySelector(s), M = n => '$' + n, sel = n => document.querySelector('input[name=' + n + ']:checked').value;
@@ -401,13 +417,28 @@
         $('#subfiltros').onclick = e => { const b = e.target.closest('button[data-s]'); if (!b) return; sub = b.dataset.s === 'Todas' ? '' : b.dataset.s; lim = 12; filtros(); pinta() };
         $('#mas').onclick = () => { lim += 12; pinta() };
         $('#lista').onclick = e => { const b = e.target.closest('button[data-d]'); if (!b) return; const id = b.parentNode.dataset.id; cart[id] = (cart[id] || 0) + +b.dataset.d; if (cart[id] < 1) delete cart[id]; pinta(); calc2() };
+        let zid = null;
+        function zoomUI() {
+            const n = cart[zid];
+            $('#zoom-q').innerHTML = n
+                ? `<button type="button" data-d="-1">−</button><b>${n}</b><button type="button" data-d="1">+</button>`
+                : `<button type="button" class="b" data-d="1">Agregar</button>`;
+        }
         $('#lista').addEventListener('click', e => {
             const im = e.target.closest('.im img'); if (!im) return;
-            $('#zoom-img').src = im.src; $('#zoom-img').alt = im.alt;
-            $('#zoom-nombre').textContent = im.alt; $('#zoom').hidden = false;
+            zid = im.closest('.k').querySelector('.q').dataset.id;
+            const f = F.find(x => x.id === zid);
+            $('#zoom-img').src = im.src; $('#zoom-img').alt = f.nombre;
+            $('#zoom-nombre').textContent = f.nombre + ' · ' + M(f.precio);
+            zoomUI(); $('#zoom').hidden = false;
         });
+        $('#zoom-q').onclick = e => {
+            const b = e.target.closest('button[data-d]'); if (!b) return;
+            cart[zid] = (cart[zid] || 0) + +b.dataset.d; if (cart[zid] < 1) delete cart[zid];
+            pinta(); calc2(); zoomUI();
+        };
         const cierra = () => { $('#zoom').hidden = true };
-        $('#zoom').onclick = cierra;
+        $('#zoom').onclick = e => { if (e.target.id === 'zoom' || e.target.closest('.cerrar')) cierra() };
         document.addEventListener('keydown', e => { if (e.key === 'Escape') cierra() });
         function calc() {
             const it = F.filter(f => cart[f.id]), n = it.reduce((a, f) => a + cart[f.id], 0), may = n >= C.mayoreo_desde_piezas;
