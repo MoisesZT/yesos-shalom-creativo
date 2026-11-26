@@ -561,7 +561,7 @@
         "precio": 17,
         "precio_mayoreo": 15,
         "volumen": 2,
-        "imagen": "images/catalogo/alcancia-yoshi.webp",
+        "imagen": "images/catalogo/alcancia-jirafa.webp",
         "categoria": "Alcancias",
         "subcategoria": "Safari",
         "etiquetas": []
@@ -1624,7 +1624,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-vaca.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1636,7 +1636,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-toro.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1648,7 +1648,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-erizo-en-tronco.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1660,7 +1660,7 @@
         "volumen": 2,
         "imagen": "images/catalogo/maceta-dinosaurio.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1672,7 +1672,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-gato-con-canasta.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1684,7 +1684,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-mini-conejo.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1696,7 +1696,7 @@
         "volumen": 2,
         "imagen": "images/catalogo/maceta-panda-con-canasta.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1708,7 +1708,7 @@
         "volumen": 2,
         "imagen": "images/catalogo/maceta-rana-con-canasta.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1720,7 +1720,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-mama-elefante.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1732,7 +1732,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-erizo.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1744,7 +1744,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-ballena.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1756,7 +1756,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-elefante.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1768,7 +1768,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-tortuga.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1780,7 +1780,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-capibara.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1792,7 +1792,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-gato-con-liston.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1804,7 +1804,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-oveja.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
@@ -1816,7 +1816,7 @@
         "volumen": 1,
         "imagen": "images/catalogo/maceta-gato-pequeño.webp",
         "categoria": "Macetas",
-        "subcategoria": "",
+        "subcategoria": "Animalitos",
         "etiquetas": []
     },
     {
